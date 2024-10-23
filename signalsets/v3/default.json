@@ -2,6 +2,10 @@
 { "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1,
   "signals": [
     {"id": "TACOMA_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Pan Temperature"}
+  ]},
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1628"}, "freq": 1,
+  "signals": [
+    {"id": "TACOMA_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Post-Converter Temperature"}
   ]}
 ]
 }
