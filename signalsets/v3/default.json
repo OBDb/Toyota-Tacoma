@@ -13,6 +13,10 @@
     {"id": "TACOMA_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "TACOMA_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "TACOMA_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25,
+  "signals": [
+    {"id": "TACOMA_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 1000, "min": -1000, "div": 10, "add": -32768, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]}
 ]
 }
