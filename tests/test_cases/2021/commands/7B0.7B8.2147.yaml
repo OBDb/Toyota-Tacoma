@@ -5,6 +5,9 @@ test_cases:
   response: 7B80761470000807D25
 - expected_values:
     TACOMA_STEER_ANGLE: -1000
+  response: 7B80761470001807A51
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
   response: 7B807614700FE808000
 - expected_values:
     TACOMA_STEER_ANGLE: -1000
