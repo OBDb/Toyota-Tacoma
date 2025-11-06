@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B80761470000807FF7
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B80761470000807FFF
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B807614700FA808000
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B807614700FF7F7D12
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B807614701027C8E4A
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B80761470902908852
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B8076147F5027178BC
+- expected_values:
+    TACOMA_STEER_ANGLE: -1000
+  response: 7B8076147FF00807FE2
