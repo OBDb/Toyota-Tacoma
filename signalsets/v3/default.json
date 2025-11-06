@@ -1,20 +1,20 @@
 { "commands": [
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2023], "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2025 },
   "signals": [
     {"id": "TACOMA_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Pan Temperature"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1628"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2023], "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1628"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2025 },
   "signals": [
     {"id": "TACOMA_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Post-Converter Temperature"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2023], "from": 2025 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2025 },
   "signals": [
     {"id": "TACOMA_TIRE_FR_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "TACOMA_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "TACOMA_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "TACOMA_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2023], "from": 2025 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2025 },
   "signals": [
     {"id": "TACOMA_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 1000, "min": -1000, "div": 10, "add": -32768, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]}
