@@ -1,0 +1,32 @@
+command_id: 701.709.221627
+test_cases:
+- expected_values:
+    TACOMA_TF1_PAN: 56.75
+  response: 7090562162735C0
+- expected_values:
+    TACOMA_TF1_PAN: 57.875
+  response: '709056216273660'
+- expected_values:
+    TACOMA_TF1_PAN: 59
+  response: '709056216273700'
+- expected_values:
+    TACOMA_TF1_PAN: 61.25
+  response: '709056216273840'
+- expected_values:
+    TACOMA_TF1_PAN: 62.375
+  response: '7090562162738E0'
+- expected_values:
+    TACOMA_TF1_PAN: 64.625
+  response: 709056216273A20
+- expected_values:
+    TACOMA_TF1_PAN: 69.125
+  response: 709056216273CA0
+- expected_values:
+    TACOMA_TF1_PAN: 72.5
+  response: '709056216273E80'
+- expected_values:
+    TACOMA_TF1_PAN: 74.75
+  response: 709056216273FC0
+- expected_values:
+    TACOMA_TF1_PAN: 80.375
+  response: '7090562162742E0'
