@@ -12,6 +12,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0144
+  - 7DF.0146
   - 7DF.015C
   - 7DF.015E
   - 7DF.01A6
@@ -117,7 +118,9 @@ unsupported_commands_by_ecu:
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
+  - 7E0.0142:VPWR
   - 7E0.0144:EQ_RAT
+  - 7E0.0146:AAT
   - 7E0.015C:EOT
   - 7E0.015E:FUEL_RATE
   - 7E0.01A6:ODO
@@ -126,6 +129,8 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.0105
   - 7E1.7E9.010D
   - 7E1.7E9.0131
+  - 7E1.7E9.0142
+  - 7E1.7E9.0146
   "7E2":
   - 7E2.7EA.0104
   - 7E2.7EA.0105
