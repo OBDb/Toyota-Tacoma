@@ -12,6 +12,7 @@ supported_commands_by_ecu:
   - 7DF.0110
   - 7DF.0111
   - 7DF.011C
+  - 7DF.011F
   - 7DF.0121
   - 7DF.012F
   - 7DF.0130
@@ -230,6 +231,7 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.0105
   - 7E5.7ED.010D
   - 7E5.7ED.0111
+  - 7E5.7ED.011F
   - 7E5.7ED.0121
   - 7E5.7ED.0130
   - 7E5.7ED.0131
