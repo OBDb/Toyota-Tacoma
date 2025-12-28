@@ -9,6 +9,7 @@ supported_commands_by_ecu:
   - 7DF.0106
   - 7DF.010D
   - 7DF.0110
+  - 7DF.0111
   - 7DF.011F
   - 7DF.012F
   - 7DF.0131
@@ -122,6 +123,7 @@ unsupported_commands_by_ecu:
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.011F:RUNTM
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
@@ -139,6 +141,7 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010D
+  - 7E1.7E9.0111
   - 7E1.7E9.011F
   - 7E1.7E9.0131
   - 7E1.7E9.0142
@@ -147,4 +150,5 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.0104
   - 7E2.7EA.0105
   - 7E2.7EA.010D
+  - 7E2.7EA.0111
   - 7E2.7EA.0131
