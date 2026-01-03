@@ -4,5 +4,5 @@ test_cases:
     TACOMA_TF1_PAN: 50
   response: '709056216273200'
 - expected_values:
-    TACOMA_TF1_PAN: 195.8
-  response: '709056216278300'
+    TACOMA_TF1_PAN: 201.2
+  response: '709056216278600'
