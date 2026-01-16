@@ -303,7 +303,7 @@
     {"id": "TACOMA_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
     {"id": "TACOMA_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127, "min": -128,                        "add": -128,   "unit": "scalar"                 }, "name": "Zero point of yaw rate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "47"}, "freq": 1,
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016], "from": 2024 },
   "signals": [
     {"id": "TACOMA_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 24,     "min": -25.11,  "mul": 0.1961568627,            "add": -25.11,  "unit": "metersPerSecondSquared" }, "name": "Lateral g"},
     {"id": "TACOMA_LNG_G",          "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 24,     "min": -25.11,  "mul": 0.1961568627,            "add": -25.11,  "unit": "metersPerSecondSquared" }, "name": "Forward and rearward g"},
