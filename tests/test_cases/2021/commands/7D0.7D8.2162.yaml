@@ -1,0 +1,29 @@
+command_id: 7D0.7D8.2162
+test_cases:
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162090000
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162090400
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162090500
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162090800
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162090B00
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162091500
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162091800
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162091E00
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162093A00
