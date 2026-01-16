@@ -83,6 +83,7 @@ supported_commands_by_ecu:
   - 7DF.011F
   - 7DF.012F
   - 7DF.0131
+  - 7DF.0134
   - 7DF.0144
   - 7DF.0146
   - 7DF.01A6
@@ -164,6 +165,7 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 0165:GEAR_RCMD,GEAR_SUP,GPL_STAT,GPL_SUP,N/D_STAT,N/D_SUP,N/G_STAT,N/G_SUP,PTO_STAT_AUX,PTO_SUP
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221043:TACOMA_EWP_RPM,TACOMA_EWP_TARGET_VSS
@@ -207,6 +209,7 @@ unsupported_commands_by_ecu:
   - 7E0.011F:RUNTM
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
+  - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
   - 7E0.0147:TP_B
@@ -233,5 +236,4 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.010D
   - 7E1.7E9.010F
   - 7E1.7E9.011F
-  - 7E1.7E9.0131
   - 7E1.7E9.0146
