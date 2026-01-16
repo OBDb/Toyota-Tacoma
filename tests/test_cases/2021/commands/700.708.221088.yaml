@@ -1,0 +1,23 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708056210880000'
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0.09764
+  response: 70805621088000A
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0.2734
+  response: 70805621088001C
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0.5468
+  response: '708056210880038'
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 38.09033
+  response: 708056210880F3D
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 38.87147
+  response: 708056210880F8D
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 42.12297
+  response: 7080562108810DA

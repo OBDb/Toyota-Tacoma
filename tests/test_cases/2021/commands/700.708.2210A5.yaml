@@ -1,0 +1,27 @@
+command_id: 700.708.2210A5
+test_cases:
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100BF0000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100C10000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100D20000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A50000FD
+    7082100DB0000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000203
+    7082100DC0000000000
