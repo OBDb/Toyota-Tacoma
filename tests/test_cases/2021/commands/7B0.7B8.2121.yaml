@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2121
+test_cases:
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 0
+  response: 7B803612100
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 1.28
+  response: 7B803612101
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 6.4
+  response: 7B803612105
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 7.68
+  response: 7B803612106
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 8.96
+  response: 7B803612107
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 17.92
+  response: 7B80361210E
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 20.48
+  response: 7B803612110
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 51.2
+  response: 7B803612128
