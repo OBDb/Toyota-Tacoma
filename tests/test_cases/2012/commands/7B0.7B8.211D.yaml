@@ -1,0 +1,10 @@
+command_id: 7B0.7B8.211D
+test_cases:
+- expected_values:
+    TACOMA_MAIN_IDLE_SW: 0
+    TACOMA_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D00
+- expected_values:
+    TACOMA_MAIN_IDLE_SW: 1
+    TACOMA_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D20

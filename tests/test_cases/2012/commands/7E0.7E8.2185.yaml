@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    TACOMA_GEAR_V2: 1
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185010010'
+- expected_values:
+    TACOMA_GEAR_V2: 2
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185020010'
+- expected_values:
+    TACOMA_GEAR_V2: 4
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185040010'
+- expected_values:
+    TACOMA_GEAR_V2: 5
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 1
+  response: '7E8056185058018'
