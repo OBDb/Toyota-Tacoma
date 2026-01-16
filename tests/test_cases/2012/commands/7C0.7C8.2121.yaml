@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2121
+test_cases:
+- expected_values:
+    TACOMA_VSS: 15
+  response: 7C80361210F
+- expected_values:
+    TACOMA_VSS: 26
+  response: 7C80361211A
+- expected_values:
+    TACOMA_VSS: 31
+  response: 7C80361211F
+- expected_values:
+    TACOMA_VSS: 42
+  response: 7C80361212A
+- expected_values:
+    TACOMA_VSS: 66
+  response: 7C803612142
