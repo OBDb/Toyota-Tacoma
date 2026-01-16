@@ -1,6 +1,9 @@
 command_id: 7B0.7B8.2121
 test_cases:
 - expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 0
+  response: 7B803612100
+- expected_values:
     TACOMA_VEHICLE_SPEED_7B0: 14.08
   response: 7B80361210B
 - expected_values:
