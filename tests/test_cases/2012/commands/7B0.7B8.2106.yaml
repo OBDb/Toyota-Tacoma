@@ -1,22 +1,26 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
+    TACOMA_YAW_1: -16
+    TACOMA_YAW_2: -6
+  response: 7B8056106707A51
+- expected_values:
     TACOMA_YAW_1: 0
     TACOMA_YAW_2: -2
   response: 7B8056106807E11
 - expected_values:
     TACOMA_YAW_1: 0
     TACOMA_YAW_2: 0
-  response: 7B80561068080B4
-- expected_values:
-    TACOMA_YAW_1: 0
-    TACOMA_YAW_2: 0
   response: 7B80561068080FF
 - expected_values:
-    TACOMA_YAW_1: 2
-    TACOMA_YAW_2: 1
-  response: 7B805610682812C
+    TACOMA_YAW_1: 0
+    TACOMA_YAW_2: 9
+  response: 7B8056106808915
 - expected_values:
-    TACOMA_YAW_1: 10
-    TACOMA_YAW_2: 3
-  response: 7B80561068A8393
+    TACOMA_YAW_1: 9
+    TACOMA_YAW_2: -25
+  response: 7B80561068967EB
+- expected_values:
+    TACOMA_YAW_1: 22
+    TACOMA_YAW_2: 9
+  response: 7B80561069689D8
