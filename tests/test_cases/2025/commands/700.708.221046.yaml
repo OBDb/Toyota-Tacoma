@@ -10,5 +10,8 @@ test_cases:
     TACOMA_COOLING_FAN_DUTY_RATIO: 32.5
   response: '7080462104641'
 - expected_values:
+    TACOMA_COOLING_FAN_DUTY_RATIO: 37.5
+  response: 708046210464B
+- expected_values:
     TACOMA_COOLING_FAN_DUTY_RATIO: 47.5
   response: 708046210465F

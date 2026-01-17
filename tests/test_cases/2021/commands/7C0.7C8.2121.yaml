@@ -4,5 +4,5 @@ test_cases:
     TACOMA_VSS: 0
   response: 7C803612100
 - expected_values:
-    TACOMA_VSS: 64
-  response: 7C803612140
+    TACOMA_VSS: 68
+  response: 7C803612144
