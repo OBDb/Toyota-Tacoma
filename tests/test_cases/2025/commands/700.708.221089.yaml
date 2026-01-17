@@ -1,0 +1,14 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 55.63879
+  response: 70805621089239E
+- expected_values:
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 56.26731
+  response: '708056210892405'
+- expected_values:
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 60.86828
+  response: 7080562108926F7
+- expected_values:
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 66.15878
+  response: 708056210892A5A

@@ -1,0 +1,8 @@
+command_id: 700.708.22105E
+test_cases:
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 26
+  response: '7080462105E42'
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 37
+  response: 7080462105E4D
