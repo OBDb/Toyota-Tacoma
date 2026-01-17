@@ -4,5 +4,5 @@ test_cases:
     TACOMA_ECU_INTERNAL_T: 26
   response: '7080462105E42'
 - expected_values:
-    TACOMA_ECU_INTERNAL_T: 37
-  response: 7080462105E4D
+    TACOMA_ECU_INTERNAL_T: 44
+  response: '7080462105E54'
