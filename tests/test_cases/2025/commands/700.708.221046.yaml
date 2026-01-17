@@ -1,0 +1,11 @@
+command_id: 700.708.221046
+test_cases:
+- expected_values:
+    TACOMA_COOLING_FAN_DUTY_RATIO: 0
+  response: '7080462104600'
+- expected_values:
+    TACOMA_COOLING_FAN_DUTY_RATIO: 30
+  response: 708046210463C
+- expected_values:
+    TACOMA_COOLING_FAN_DUTY_RATIO: 47.5
+  response: 708046210465F
