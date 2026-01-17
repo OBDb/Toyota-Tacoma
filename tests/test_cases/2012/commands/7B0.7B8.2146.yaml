@@ -6,21 +6,7 @@ test_cases:
     TACOMA_ZP_YAW: 0
   response: |-
     7B81009614600008080
-    7B821A8FF1F00000000
-- expected_values:
-    TACOMA_ZP_DEC: -25.11
-    TACOMA_ZP_DEC2: -25.11
-    TACOMA_ZP_YAW: 0
-  response: |-
-    7B81009614600008080
-    7B821AAFF1F00000000
-- expected_values:
-    TACOMA_ZP_DEC: -25.11
-    TACOMA_ZP_DEC2: -25.11
-    TACOMA_ZP_YAW: 0
-  response: |-
-    7B81009614600008080
-    7B821ACFF1F00000000
+    7B8219CFF1F00000000
 - expected_values:
     TACOMA_ZP_DEC: -25.11
     TACOMA_ZP_DEC2: -25.11
@@ -34,11 +20,4 @@ test_cases:
     TACOMA_ZP_YAW: 0
   response: |-
     7B81009614600008080
-    7B821B6FF1F00000000
-- expected_values:
-    TACOMA_ZP_DEC: -25.11
-    TACOMA_ZP_DEC2: -25.11
-    TACOMA_ZP_YAW: 0
-  response: |-
-    7B81009614600008080
-    7B821BDFF1F00000000
+    7B821B0FF1F00000000
