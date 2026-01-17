@@ -7,5 +7,5 @@ test_cases:
     TACOMA_ATF_T_PAN_V3: 31.875
   response: '7080562162747E0'
 - expected_values:
-    TACOMA_ATF_T_PAN_V3: 56.875
-  response: '7080562162760E0'
+    TACOMA_ATF_T_PAN_V3: 80
+  response: '708056216277800'
