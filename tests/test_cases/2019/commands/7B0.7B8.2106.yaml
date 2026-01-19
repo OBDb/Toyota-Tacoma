@@ -1,0 +1,10 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    TACOMA_YAW_1: 0
+    TACOMA_YAW_2: 16
+  response: 7B8056106809077
+- expected_values:
+    TACOMA_YAW_1: 0
+    TACOMA_YAW_2: 16
+  response: 7B8056106809095

@@ -1,0 +1,29 @@
+command_id: 7C4.7CC.2122
+test_cases:
+- expected_values:
+    TACOMA_AAT_7C4: 27.8
+  response: 7CC03612292
+- expected_values:
+    TACOMA_AAT_7C4: 28.15
+  response: 7CC03612293
+- expected_values:
+    TACOMA_AAT_7C4: 28.5
+  response: 7CC03612294
+- expected_values:
+    TACOMA_AAT_7C4: 29.2
+  response: 7CC03612296
+- expected_values:
+    TACOMA_AAT_7C4: 29.9
+  response: 7CC03612298
+- expected_values:
+    TACOMA_AAT_7C4: 33.05
+  response: 7CC036122A1
+- expected_values:
+    TACOMA_AAT_7C4: 36.2
+  response: 7CC036122AA
+- expected_values:
+    TACOMA_AAT_7C4: 36.9
+  response: 7CC036122AC
+- expected_values:
+    TACOMA_AAT_7C4: 38.3
+  response: 7CC036122B0
