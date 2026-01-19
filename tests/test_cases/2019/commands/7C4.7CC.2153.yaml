@@ -1,0 +1,17 @@
+command_id: 7C4.7CC.2153
+test_cases:
+- expected_values:
+    TACOMA_REGULATOR_P: 0.60244
+  response: 7CC03615348
+- expected_values:
+    TACOMA_REGULATOR_P: 0.61715
+  response: 7CC03615349
+- expected_values:
+    TACOMA_REGULATOR_P: 0.63186
+  response: 7CC0361534A
+- expected_values:
+    TACOMA_REGULATOR_P: 0.64657
+  response: 7CC0361534B
+- expected_values:
+    TACOMA_REGULATOR_P: 1.17613
+  response: 7CC0361536F

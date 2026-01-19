@@ -1,0 +1,11 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.11566
+  response: 7080562106207C1
+- expected_values:
+    TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 42.15763
+  response: 708056210621AFB
+- expected_values:
+    TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 42.24308
+  response: 708056210621B09

@@ -1,0 +1,8 @@
+command_id: 700.708.221084
+test_cases:
+- expected_values:
+    TACOMA_ROUGH_IDLE_CYL_1: 1
+    TACOMA_ROUGH_IDLE_CYL_2: 0
+    TACOMA_ROUGH_IDLE_CYL_3: 63
+    TACOMA_ROUGH_IDLE_CYL_4: 0
+  response: 7080762108401003F00
