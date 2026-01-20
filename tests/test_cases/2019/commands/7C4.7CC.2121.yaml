@@ -1,0 +1,20 @@
+command_id: 7C4.7CC.2121
+test_cases:
+- expected_values:
+    TACOMA_CABIN_T: 23.5
+  response: 7CC03612178
+- expected_values:
+    TACOMA_CABIN_T: 23.75
+  response: 7CC03612179
+- expected_values:
+    TACOMA_CABIN_T: 24
+  response: 7CC0361217A
+- expected_values:
+    TACOMA_CABIN_T: 24.25
+  response: 7CC0361217B
+- expected_values:
+    TACOMA_CABIN_T: 24.5
+  response: 7CC0361217C
+- expected_values:
+    TACOMA_CABIN_T: 25
+  response: 7CC0361217E
