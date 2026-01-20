@@ -80,6 +80,7 @@ supported_commands_by_ecu:
   - 7DF.010C
   - 7DF.010D
   - 7DF.010F
+  - 7DF.0110
   - 7DF.011F
   - 7DF.012F
   - 7DF.0131
