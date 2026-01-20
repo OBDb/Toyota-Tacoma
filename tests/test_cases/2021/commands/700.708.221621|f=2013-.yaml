@@ -1,0 +1,14 @@
+command_id: 700.708.221621|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_GEAR: 1
+  response: '7080462162101'
+- expected_values:
+    TACOMA_GEAR: 2
+  response: '7080462162102'
+- expected_values:
+    TACOMA_GEAR: 3
+  response: '7080462162103'
+- expected_values:
+    TACOMA_GEAR: 5
+  response: '7080462162105'

@@ -1,5 +1,0 @@
-command_id: 700.708.221621
-test_cases:
-- expected_values:
-    TACOMA_GEAR: 1
-  response: '7080462162101'

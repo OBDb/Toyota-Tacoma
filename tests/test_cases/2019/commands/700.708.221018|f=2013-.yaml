@@ -1,0 +1,11 @@
+command_id: 700.708.221018|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    TACOMA_INJECTOR_PORT: 2.806
+  response: 708056210180AF6
+- expected_values:
+    TACOMA_INJECTOR_PORT: 3.095
+  response: 708056210180C17

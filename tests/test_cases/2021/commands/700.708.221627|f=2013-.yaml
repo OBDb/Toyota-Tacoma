@@ -1,0 +1,14 @@
+command_id: 700.708.221627|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_ATF_T_PAN_V3: 5.625
+  response: 708056216272DA0
+- expected_values:
+    TACOMA_ATF_T_PAN_V3: 10
+  response: '708056216273200'
+- expected_values:
+    TACOMA_ATF_T_PAN_V3: 11.875
+  response: '7080562162733E0'
+- expected_values:
+    TACOMA_ATF_T_PAN_V3: 70.625
+  response: 708056216276EA0

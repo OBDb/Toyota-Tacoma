@@ -1,8 +1,0 @@
-command_id: 701.709.221627
-test_cases:
-- expected_values:
-    TACOMA_TF1_PAN: 71.6
-  response: '709056216273E00'
-- expected_values:
-    TACOMA_TF1_PAN: 204.8
-  response: '709056216278800'

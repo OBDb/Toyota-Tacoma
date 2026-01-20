@@ -1,8 +1,0 @@
-command_id: 700.708.221620
-test_cases:
-- expected_values:
-    TACOMA_AT_LOCK_UP_STATE: 0
-  response: '7080462162000'
-- expected_values:
-    TACOMA_AT_LOCK_UP_STATE: 1
-  response: '7080462162001'

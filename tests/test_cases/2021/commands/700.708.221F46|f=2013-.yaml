@@ -1,0 +1,26 @@
+command_id: 700.708.221F46|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_AMBIENT_T: 12
+  response: 70804621F4634
+- expected_values:
+    TACOMA_AMBIENT_T: 13
+  response: 70804621F4635
+- expected_values:
+    TACOMA_AMBIENT_T: 14
+  response: 70804621F4636
+- expected_values:
+    TACOMA_AMBIENT_T: 15
+  response: 70804621F4637
+- expected_values:
+    TACOMA_AMBIENT_T: 16
+  response: 70804621F4638
+- expected_values:
+    TACOMA_AMBIENT_T: 17
+  response: 70804621F4639
+- expected_values:
+    TACOMA_AMBIENT_T: 18
+  response: 70804621F463A
+- expected_values:
+    TACOMA_AMBIENT_T: 19
+  response: 70804621F463B
