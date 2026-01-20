@@ -46,5 +46,5 @@ supported_commands_by_ecu:
   - 7E0.0105:ECT
 unsupported_commands_by_ecu:
   "701":
-  - 701.709.221627:TACOMA_TF1_PAN
-  - 701.709.221628:TACOMA_TF2_CONV
+  - 701.709.221627
+  - 701.709.221628

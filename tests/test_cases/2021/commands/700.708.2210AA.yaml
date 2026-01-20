@@ -1,5 +1,0 @@
-command_id: 700.708.2210AA
-test_cases:
-- expected_values:
-    TACOMA_MISFIRE_LOAD: 0
-  response: 708046210AA00
