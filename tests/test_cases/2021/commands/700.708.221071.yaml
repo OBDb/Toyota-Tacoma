@@ -1,8 +1,0 @@
-command_id: 700.708.221071
-test_cases:
-- expected_values:
-    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 0
-  response: '708056210710000'
-- expected_values:
-    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 41.24418
-  response: '708056210711080'
