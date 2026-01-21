@@ -13,12 +13,6 @@ test_cases:
     7582A10076116003A3B
     7582A213F0000000000
 - expected_values:
-    TACOMA_TIRE_T_FR: 37
-    TACOMA_TIRE_T_RR: 39
-  response: |-
-    7582A10076116004D00
-    7582A214F0000000000
-- expected_values:
     TACOMA_TIRE_T_FL: 20
     TACOMA_TIRE_T_FR: 19
     TACOMA_TIRE_T_RL: 20
@@ -47,6 +41,14 @@ test_cases:
     TACOMA_TIRE_T_RR: 40
   response: |-
     7582A100761164F4D4F
+    7582A21500000000000
+- expected_values:
+    TACOMA_TIRE_T_FL: 39
+    TACOMA_TIRE_T_FR: 39
+    TACOMA_TIRE_T_RL: 38
+    TACOMA_TIRE_T_RR: 40
+  response: |-
+    7582A100761164F4F4E
     7582A21500000000000
 - expected_values:
     TACOMA_TIRE_T_FL: 40
