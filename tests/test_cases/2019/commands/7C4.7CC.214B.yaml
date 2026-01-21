@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.214B
 test_cases:
 - expected_values:
-    TACOMA_EVAP_FIN_THERMISTOR: 0.75
-  response: 7CC03614B57
+    TACOMA_EVAP_FIN_THERMISTOR: 0.4
+  response: 7CC03614B56
 - expected_values:
     TACOMA_EVAP_FIN_THERMISTOR: 25.25
   response: 7CC03614B9D
