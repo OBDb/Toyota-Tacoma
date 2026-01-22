@@ -83,6 +83,7 @@ supported_commands_by_ecu:
   - 7DF.0110
   - 7DF.0111
   - 7DF.0131
+  - 7DF.0134
   - 7DF.0142
   - 7DF.0144
   - 7DF.0147
@@ -172,6 +173,7 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 0165:GEAR_RCMD,GEAR_SUP,GPL_STAT,GPL_SUP,N/D_STAT,N/D_SUP,N/G_STAT,N/G_SUP,PTO_STAT_AUX,PTO_SUP
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221043
@@ -232,5 +234,4 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.0105
   - 7E1.7E9.010D
   - 7E1.7E9.0111
-  - 7E1.7E9.0131
   - 7E1.7E9.0142
