@@ -1,6 +1,9 @@
 command_id: 700.708.221627|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_ATF_T_PAN_V3: 37.5
+  response: "2216271\nUNABLE TO CONNECT\n708 05 62 16 27 4D 80 "
+- expected_values:
     TACOMA_ATF_T_PAN_V3: 17.5
   response: '708056216273980'
 - expected_values:
