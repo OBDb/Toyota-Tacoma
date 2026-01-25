@@ -1,8 +1,8 @@
 command_id: 700.708.221002|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_12V_V: 12.07028
-  response: 7080562100226A0
+    TACOMA_12V_V: 11.34274
+  response: 70805621002244C
 - expected_values:
     TACOMA_12V_V: 13.43258
   response: 708056210022AFC

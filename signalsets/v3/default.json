@@ -369,7 +369,7 @@
   "signals": [
     {"id": "TACOMA_BLOWER_MOTOR_SPEED_LEVEL", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Blower motor speed level"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
   "signals": [
     {"id": "TACOMA_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
