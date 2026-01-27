@@ -1,10 +1,10 @@
 command_id: 750.758.2130|t=96,e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    TACOMA_TIRE_P_RR: 2.37931
+    TACOMA_TIRE_P_RR: 2.22414
   response: |-
     7582A10076130000000
-    7582A21A70000000000
+    7582A219E0000000000
 - expected_values:
     TACOMA_TIRE_P_FR: 2.31034
     TACOMA_TIRE_P_RR: 2.24138
