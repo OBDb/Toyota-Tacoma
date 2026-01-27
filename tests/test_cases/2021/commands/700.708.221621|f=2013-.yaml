@@ -10,5 +10,11 @@ test_cases:
     TACOMA_GEAR: 3
   response: '7080462162103'
 - expected_values:
+    TACOMA_GEAR: 4
+  response: '7080462162104'
+- expected_values:
     TACOMA_GEAR: 5
   response: '7080462162105'
+- expected_values:
+    TACOMA_GEAR: 6
+  response: '7080462162106'
