@@ -1,11 +1,11 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    TACOMA_FUEL_LEVEL: 10.6
-  response: 7C8056210220424
+    TACOMA_FUEL_LEVEL: 7.5
+  response: 7C80562102202EE
 - expected_values:
-    TACOMA_FUEL_LEVEL: 40.95
-  response: 7C8056210220FFF
+    TACOMA_FUEL_LEVEL: 28.15
+  response: 7C8056210220AFF
 - expected_values:
     TACOMA_FUEL_LEVEL: 51.2
   response: 7C8056210221400
