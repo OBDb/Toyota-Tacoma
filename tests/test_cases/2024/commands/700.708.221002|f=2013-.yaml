@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TACOMA_12V_V: 13.74996
   response: 708056210022C00
+- expected_values:
+    TACOMA_12V_V: 14.32125
+  response: 708056210022DD4
