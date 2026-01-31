@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_Tacoma"
+
 generations:
   - name: "First Generation (N140/N150/N160/N170)"
     start_year: 1995
