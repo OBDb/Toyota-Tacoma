@@ -1,13 +1,13 @@
 command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    TACOMA_TIRE_T_FL: 17
-    TACOMA_TIRE_T_FR: 18
-    TACOMA_TIRE_T_RL: 17
-    TACOMA_TIRE_T_RR: 18
+    TACOMA_TIRE_T_FL: -3
+    TACOMA_TIRE_T_FR: -3
+    TACOMA_TIRE_T_RL: -3
+    TACOMA_TIRE_T_RR: -3
   response: |-
-    7582A10076116393A39
-    7582A213A0000000000
+    7582A10076116252525
+    7582A21250000000000
 - expected_values:
     TACOMA_TIRE_T_FL: 18
     TACOMA_TIRE_T_FR: 18
