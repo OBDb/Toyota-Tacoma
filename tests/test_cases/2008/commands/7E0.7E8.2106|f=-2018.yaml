@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2106|f=-2018
+test_cases:
+- expected_values:
+    TACOMA_MIL: 0
+    TACOMA_NUMBER_OF_EMISSION_DTC: 122
+  response: 7E80361067A
+- expected_values:
+    TACOMA_MIL: 0
+    TACOMA_NUMBER_OF_EMISSION_DTC: 124
+  response: 7E80361067C
