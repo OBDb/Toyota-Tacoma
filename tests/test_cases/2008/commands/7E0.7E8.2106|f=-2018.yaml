@@ -8,3 +8,35 @@ test_cases:
     TACOMA_MIL: 0
     TACOMA_NUMBER_OF_EMISSION_DTC: 124
   response: 7E80361067C
+- expected_values:
+    TACOMA_MIL: 0
+    TACOMA_NUMBER_OF_EMISSION_DTC: 126
+  response: 7E80361067E
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 0
+  response: '7E803610680'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 1
+  response: '7E803610681'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 3
+  response: '7E803610683'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 5
+  response: '7E803610685'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 6
+  response: '7E803610686'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 7
+  response: '7E803610687'
+- expected_values:
+    TACOMA_MIL: 1
+    TACOMA_NUMBER_OF_EMISSION_DTC: 16
+  response: '7E803610690'
