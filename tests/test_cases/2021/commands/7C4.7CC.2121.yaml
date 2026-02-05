@@ -4,5 +4,5 @@ test_cases:
     TACOMA_CABIN_T: 5.25
   response: 7CC0361212F
 - expected_values:
-    TACOMA_CABIN_T: 27.5
-  response: 7CC03612188
+    TACOMA_CABIN_T: 30.25
+  response: 7CC03612193
