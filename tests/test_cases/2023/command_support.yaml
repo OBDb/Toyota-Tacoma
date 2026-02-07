@@ -1,5 +1,7 @@
 model_year: 2023
 supported_commands_by_ecu:
+  "700":
+  - 700.708.221621|f=2013-:TACOMA_GEAR
   "701":
   - 701.709.221627|f=2013-:TACOMA_TF1_PAN
   - 701.709.221628|f=2013-:TACOMA_TF2_CONV
