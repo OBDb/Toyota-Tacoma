@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_12V_V", "path": "Battery", "fmt": { "len": 16, "max": 79, "mul": 12.207, "div": 10000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -7,11 +7,11 @@
   "signals": [
     {"id": "TACOMA_INJ_VOL", "path": "Engine", "fmt": { "len": 16, "max": 20, "div": 3200, "unit": "liters" }, "name": "Injection volume"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_INJECTOR_PORT", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Injector port"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1019"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1019"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_INJECTION", "path": "Engine", "name": "Injection", "fmt": {"len": 8, "map": {
           "1": { "description": "Direct", "value": "DIRECT" },
@@ -27,7 +27,7 @@
     {"id": "TACOMA_A_F_RATIO_LEARNED_MID_2_BANK_1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned mid 2, bank 1"},
     {"id": "TACOMA_A_F_RATIO_LEARNED_HIGH_BANK_1",  "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned high, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1041"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1041"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ECT_IGN",  "path": "Engine", "fmt": {          "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, at ignition"},
     {"id": "TACOMA_ECT_INIT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, initial"}
@@ -53,7 +53,7 @@
   "signals": [
     {"id": "TACOMA_FUEL_PUMP_DUTY_RATIO", "path": "Fuel", "fmt": { "len": 16, "max": 3996, "mul": 0.0609756098, "unit": "kilopascal" }, "name": "Fuel pump duty ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "106C"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106C"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_DIST_SINCE_BAT_DISC", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since last battery cable disconnection"}
   ]},
@@ -80,22 +80,22 @@
   "signals": [
     {"id": "TACOMA_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ROUGH_IDLE_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 1"},
     {"id": "TACOMA_ROUGH_IDLE_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 2"},
     {"id": "TACOMA_ROUGH_IDLE_CYL_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 3"},
     {"id": "TACOMA_ROUGH_IDLE_CYL_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1087"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1087"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT change angle, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1088"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1088"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_EXHAUST_VVT_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT change angle, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1089"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1089"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_EXHAUST_VVT_HOLD_LEARN_B1", "path": "Engine", "fmt": { "len": 16, "max": 399.9, "mul": 399.9, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT hold learn value, bank 1"}
   ]},
@@ -126,7 +126,7 @@
     {"id": "TACOMA_MISFIRE_CYL3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 3"},
     {"id": "TACOMA_MISFIRE_CYL4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_MISFIRE_LOAD",   "path": "Engine", "fmt": {           "len": 8, "max": 510,               "mul": 510,  "div": 255,              "unit": "percent" }, "name": "Misfire load"},
     {"id": "TACOMA_MISFIRE_RPM",    "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 6375,              "mul": 6375, "div": 255,              "unit": "rpm"     }, "name": "Misfire RPM"},
@@ -136,7 +136,7 @@
   "signals": [
     {"id": "TACOMA_LFP", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "div": 10, "add": -3276.8, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15FA"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15FA"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ALT_DUTY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 399, "div": 164, "unit": "percent" }, "name": "Alternator output duty cycle"}
   ]},
@@ -148,7 +148,7 @@
   "signals": [
     {"id": "TACOMA_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -156,11 +156,11 @@
   "signals": [
     {"id": "TACOMA_CAT_T_11", "path": "Engine.Catalyst", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3E"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3E"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_CAT_T_12", "path": "Engine.Catalyst", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -174,7 +174,7 @@
     {"id": "TACOMA_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655.35,            "div": 100, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
     {"id": "TACOMA_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
   "signals": [
     {"id": "TACOMA_LOCK_UP_STATE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
@@ -209,7 +209,7 @@
     {"id": "TACOMA_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "TACOMA_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_DECEL",   "path": "Orientation", "fmt": {          "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration"},
     {"id": "TACOMA_DECEL_2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration 2"}
@@ -224,20 +224,20 @@
     {"id": "TACOMA_RESERVOIR_WARNING_SW", "path": "ECU", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning"},
     {"id": "TACOMA_MAIN_IDLE_SW",         "path": "ECU", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_STOP_LIGHT_SW",    "path": "Lights",  "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "TACOMA_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_VEHICLE_SPEED_7B0", "path": "Movement", "fmt": { "len": 8, "max": 326.4, "mul": 326.4, "div": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7B0", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_STOP_LIGHT_RELAY", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_ABS_WARN",   "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Anti-lock braking system warning light"},
     {"id": "TACOMA_BRAKE_WARN", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake warning light"},
@@ -252,7 +252,7 @@
     {"id": "TACOMA_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
     {"id": "TACOMA_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
     {"id": "TACOMA_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
@@ -290,7 +290,7 @@
   "signals": [
     {"id": "TACOMA_ZERO_POINT_OF_YAW_RATE", "path": "Orientation", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Zero point of yaw rate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_INSPECTION_MODE", "path": "ECU", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
@@ -308,14 +308,14 @@
     {"id": "TACOMA_ACCUMULATOR_OPEN",       "path": "Engine",      "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "offon" }, "name": "Accumulator open"},
     {"id": "TACOMA_HV_COMMUNICATION_OPEN",  "path": "Engine",      "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "offon" }, "name": "HV communication open"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_TAIL_CANCEL_LIGHT",       "path": "Lights", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Tail cancel SW"},
     {"id": "TACOMA_P_SEATBELT_BUCKLE_LIGHT", "path": "Lights", "fmt": {"bix": 8,  "len": 1, "max": 1, "unit": "offon" }, "name": "P-seatbelt buckle SW"},
     {"id": "TACOMA_CHECK_ENGINE_LIGHT",      "path": "Lights", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "offon" }, "name": "Check engine SW"},
     {"id": "TACOMA_EOP_LIGHT",               "path": "Lights", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2023 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -353,11 +353,11 @@
   "signals": [
     {"id": "TACOMA_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "TACOMA_CABIN_T", "path": "Climate", "fmt": { "len": 8, "max": 57.25, "min": -6.5, "mul": 63.75, "div": 255, "add": -6.5, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_AAT_7C4", "path": "Climate", "fmt": { "len": 8, "max": 65.95, "min": -23.3, "mul": 89.25, "div": 255, "add": -23.3, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
@@ -369,7 +369,7 @@
   "signals": [
     {"id": "TACOMA_BLOWER_MOTOR_SPEED_LEVEL", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Blower motor speed level"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
@@ -377,15 +377,15 @@
   "signals": [
     {"id": "TACOMA_EVAP_FIN_THERMISTOR", "path": "Climate", "fmt": { "len": 8, "max": 59.55, "min": -29.7, "mul": 89.25, "div": 255, "add": -29.7, "unit": "celsius" }, "name": "Evaporator fin thermistor"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_EVAPORATOR_TARGET_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "scalar" }, "name": "Evaporator target temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.29437, "min": -0.45668, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
   ]},
-{ "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "TACOMA_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},

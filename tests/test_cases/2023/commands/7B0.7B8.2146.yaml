@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    TACOMA_ZP_DEC: -25.11
+    TACOMA_ZP_DEC2: -25.11
+    TACOMA_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EE071F00000000

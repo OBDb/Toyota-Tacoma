@@ -1,0 +1,5 @@
+command_id: 7D0.7D8.2162
+test_cases:
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D8056162010000
