@@ -10,8 +10,8 @@ test_cases:
     TACOMA_FUEL_LEVEL: 20.47
   response: 7C80562102207FF
 - expected_values:
-    TACOMA_FUEL_LEVEL: 46.08
-  response: 7C8056210221200
+    TACOMA_FUEL_LEVEL: 28.16
+  response: 7C8056210220B00
 - expected_values:
     TACOMA_FUEL_LEVEL: 655.35
   response: 7C805621022FFFF
