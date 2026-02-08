@@ -1,6 +1,14 @@
 command_id: 700.708.22107B|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_EOT: -8
+  response: |-
+    708102262107B000005
+    708216E01091B7FA280
+    70822E07FF47F9A8009
+    7082380007FFD00007F
+    70824205D5D1F1F034E
+- expected_values:
     TACOMA_EOT: 5
   response: |-
     708102262107B003404
@@ -24,14 +32,6 @@ test_cases:
     70822DE800A7FD08098
     7082380007FFC000080
     708242969692828046D
-- expected_values:
-    TACOMA_EOT: 0
-  response: |-
-    708102262107B003404
-    708218B0101BB7FC683
-    70822F6800A7FD080BE
-    7082380007FFC00007F
-    7082428696928280169
 - expected_values:
     TACOMA_EOT: 0
   response: |-
