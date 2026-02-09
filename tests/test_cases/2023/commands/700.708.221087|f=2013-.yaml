@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 28.69713
   response: 708056210870B7B
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.37086
+  response: 708056210870BC0

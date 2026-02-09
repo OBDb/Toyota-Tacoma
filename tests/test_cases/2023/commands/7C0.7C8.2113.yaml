@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_BAT_V: 14.1
   response: 7C80361138D
+- expected_values:
+    TACOMA_BAT_V: 14.2
+  response: 7C80361138E
