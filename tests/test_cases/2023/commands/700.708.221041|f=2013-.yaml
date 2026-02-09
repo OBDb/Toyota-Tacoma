@@ -4,3 +4,7 @@ test_cases:
     TACOMA_ECT_IGN: 13.125
     TACOMA_ECT_INIT: 13.75
   response: '708056210415556'
+- expected_values:
+    TACOMA_ECT_IGN: 25.625
+    TACOMA_ECT_INIT: 25.625
+  response: '708056210416969'

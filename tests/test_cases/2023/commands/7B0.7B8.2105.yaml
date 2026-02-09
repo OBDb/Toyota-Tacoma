@@ -5,6 +5,12 @@ test_cases:
     TACOMA_DECEL_2: 0.07129
   response: "7B8 10 09 61 05 82 80 04 48 \n7B8 21 00 00 C9 00 00 00 00 "
 - expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B810096105807E04A1
+    7B82100FB6700000000
+- expected_values:
     TACOMA_DECEL: 0.35647
     TACOMA_DECEL_2: 0.07129
   response: |-
