@@ -1,14 +1,11 @@
 command_id: 700.708.221074|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_EOP: 5
-  response: '708056210740005'
+    TACOMA_EOP: 1
+  response: '708056210740001'
 - expected_values:
-    TACOMA_EOP: 2298
-  response: 7080562107408FA
-- expected_values:
-    TACOMA_EOP: 3841
-  response: 708056210740F01
+    TACOMA_EOP: 3579
+  response: 708056210740DFB
 - expected_values:
     TACOMA_EOP: 6778
   response: 708056210741A7A
