@@ -2,4 +2,7 @@ command_id: 700.708.2210AA|f=2013-
 test_cases:
 - expected_values:
     TACOMA_MISFIRE_LOAD: 0
+  response: "2210AA\n708 04 62 10 AA 00 "
+- expected_values:
+    TACOMA_MISFIRE_LOAD: 0
   response: 708046210AA00

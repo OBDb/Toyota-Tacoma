@@ -1,6 +1,12 @@
 command_id: 700.708.221088|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0
+  response: "221088\n708 05 62 10 88 00 00 "
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 0.00976
+  response: '708056210880001'
+- expected_values:
     TACOMA_EXHAUST_VVT_ANGLE_B1: 0.02929
   response: '708056210880003'
 - expected_values:

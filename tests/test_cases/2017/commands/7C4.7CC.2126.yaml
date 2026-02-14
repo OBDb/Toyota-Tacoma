@@ -1,11 +1,14 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
+    TACOMA_ECT: 55.55
+  response: "2126\n7CC 03 61 26 9B "
+- expected_values:
+    TACOMA_ECT: 59.05
+  response: "2126\n7CC 03 61 26 A5 "
+- expected_values:
     TACOMA_ECT: 16.35
   response: 7CC0361262B
 - expected_values:
-    TACOMA_ECT: 24.4
-  response: 7CC03612642
-- expected_values:
-    TACOMA_ECT: 30.35
-  response: 7CC03612653
+    TACOMA_ECT: 90.55
+  response: 7CC036126FF

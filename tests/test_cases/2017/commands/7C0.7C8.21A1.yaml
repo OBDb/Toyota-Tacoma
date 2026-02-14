@@ -2,4 +2,7 @@ command_id: 7C0.7C8.21A1
 test_cases:
 - expected_values:
     TACOMA_KEY_REMIND_SOUND: 16
+  response: "21A1\n7C8 03 61 A1 10 "
+- expected_values:
+    TACOMA_KEY_REMIND_SOUND: 16
   response: 7C80361A110
