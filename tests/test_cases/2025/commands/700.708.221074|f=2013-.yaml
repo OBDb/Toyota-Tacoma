@@ -10,5 +10,5 @@ test_cases:
     TACOMA_EOP: 5634
   response: '708056210741602'
 - expected_values:
-    TACOMA_EOP: 6599
-  response: 7080562107419C7
+    TACOMA_EOP: 6778
+  response: 708056210741A7A
