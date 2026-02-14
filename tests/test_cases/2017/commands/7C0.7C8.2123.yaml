@@ -1,0 +1,14 @@
+command_id: 7C0.7C8.2123
+test_cases:
+- expected_values:
+    TACOMA_ECT_7C0: 16
+  response: 7C803612320
+- expected_values:
+    TACOMA_ECT_7C0: 24
+  response: 7C803612330
+- expected_values:
+    TACOMA_ECT_7C0: 30
+  response: 7C80361233C
+- expected_values:
+    TACOMA_ECT_7C0: 35
+  response: 7C803612346
