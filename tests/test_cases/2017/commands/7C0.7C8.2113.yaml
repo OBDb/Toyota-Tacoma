@@ -2,4 +2,7 @@ command_id: 7C0.7C8.2113
 test_cases:
 - expected_values:
     TACOMA_BAT_V: 14.1
+  response: "2113\n7C8 03 61 13 8D "
+- expected_values:
+    TACOMA_BAT_V: 14.1
   response: 7C80361138D

@@ -2,4 +2,7 @@ command_id: 7B0.7B8.21A1
 test_cases:
 - expected_values:
     TACOMA_ZERO_POINT_OF_YAW_RATE: 0
+  response: "21A1\n7B8 03 61 A1 80 "
+- expected_values:
+    TACOMA_ZERO_POINT_OF_YAW_RATE: 0
   response: 7B80361A180

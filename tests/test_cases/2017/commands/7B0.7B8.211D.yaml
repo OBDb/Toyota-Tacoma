@@ -3,4 +3,8 @@ test_cases:
 - expected_values:
     TACOMA_MAIN_IDLE_SW: 1
     TACOMA_RESERVOIR_WARNING_SW: 0
+  response: "211D\n7B8 03 61 1D 20 "
+- expected_values:
+    TACOMA_MAIN_IDLE_SW: 1
+    TACOMA_RESERVOIR_WARNING_SW: 0
   response: 7B803611D20

@@ -1,14 +1,17 @@
 command_id: 700.708.221017|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_INJ_VOL: 1.13719
-  response: '708056210170E37'
+    TACOMA_INJ_VOL: 0.94
+  response: "221017\n708 05 62 10 17 0B C0 "
 - expected_values:
-    TACOMA_INJ_VOL: 1.15094
-  response: '708056210170E63'
+    TACOMA_INJ_VOL: 0.95531
+  response: "221017\n708 05 62 10 17 0B F1 "
 - expected_values:
-    TACOMA_INJ_VOL: 1.22312
-  response: 708056210170F4A
+    TACOMA_INJ_VOL: 0.96
+  response: "221017\n708 05 62 10 17 0C 00 "
+- expected_values:
+    TACOMA_INJ_VOL: 0.99531
+  response: 708056210170C71
 - expected_values:
     TACOMA_INJ_VOL: 1.36375
   response: 70805621017110C
