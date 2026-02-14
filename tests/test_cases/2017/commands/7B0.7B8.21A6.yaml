@@ -2,4 +2,7 @@ command_id: 7B0.7B8.21A6
 test_cases:
 - expected_values:
     TACOMA_INSPECTION_MODE: 0
+  response: "21A6\n7B8 04 61 A6 00 FF "
+- expected_values:
+    TACOMA_INSPECTION_MODE: 0
   response: 7B80461A600FF

@@ -3,6 +3,22 @@ test_cases:
 - expected_values:
     TACOMA_DECEL: 0.07129
     TACOMA_DECEL_2: 0.35647
+  response: "2105\n7B8 10 09 61 05 80 82 03 D6 \n7B8 21 00 00 FF 00 00 00 00 "
+- expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: 0.35647
+  response: "2105\n7B8 10 09 61 05 80 82 03 E3 \n7B8 21 00 00 FC 00 00 00 00 "
+- expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: 0.35647
+  response: "2105\n7B8 10 09 61 05 80 82 03 E9 \n7B8 21 00 00 EF 00 00 00 00 "
+- expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: 0.35647
+  response: "2105\n7B8 10 09 61 05 80 82 03 EC \n7B8 21 00 00 F7 00 00 00 00 "
+- expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: 0.35647
   response: |-
     7B810096105808204BD
     7B82100008800000000
@@ -24,3 +40,9 @@ test_cases:
   response: |-
     7B8100961058082054B
     7B82100005E00000000
+- expected_values:
+    TACOMA_DECEL: 0.07129
+    TACOMA_DECEL_2: 0.49906
+  response: |-
+    7B81009610580830401
+    7B8210000A100000000

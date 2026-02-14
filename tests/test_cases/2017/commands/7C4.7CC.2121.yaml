@@ -1,6 +1,9 @@
 command_id: 7C4.7CC.2121
 test_cases:
 - expected_values:
+    TACOMA_CABIN_T: 15.25
+  response: "2121\n7CC 03 61 21 57 "
+- expected_values:
     TACOMA_CABIN_T: 13.25
   response: 7CC0361214F
 - expected_values:

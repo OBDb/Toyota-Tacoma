@@ -4,6 +4,11 @@ test_cases:
     TACOMA_ZP_DEC: -25.11
     TACOMA_ZP_DEC2: -25.11
     TACOMA_ZP_YAW: 0
+  response: "2146\n7B8 10 09 61 46 00 00 80 80 \n7B8 21 00 FF 16 00 00 00 00 "
+- expected_values:
+    TACOMA_ZP_DEC: -25.11
+    TACOMA_ZP_DEC2: -25.11
+    TACOMA_ZP_YAW: 0
   response: |-
     7B81009614600008080
     7B82100FF1600000000
