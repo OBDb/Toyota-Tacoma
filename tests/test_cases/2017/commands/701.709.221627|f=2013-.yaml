@@ -1,11 +1,11 @@
 command_id: 701.709.221627|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_TF1_PAN: 56.75
-  response: 7090562162735C0
+    TACOMA_TF1_PAN: 46.625
+  response: '709056216273020'
 - expected_values:
-    TACOMA_TF1_PAN: 59
-  response: '709056216273700'
+    TACOMA_TF1_PAN: 50
+  response: '709056216273200'
 - expected_values:
     TACOMA_TF1_PAN: 62.375
   response: '7090562162738E0'
