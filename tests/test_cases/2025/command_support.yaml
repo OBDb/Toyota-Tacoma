@@ -212,6 +212,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  "7E6":
+  - 7E6.7EE.0111
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221043
@@ -358,7 +360,6 @@ unsupported_commands_by_ecu:
   - 7E6.7EE.0104
   - 7E6.7EE.0105
   - 7E6.7EE.010D
-  - 7E6.7EE.0111
   - 7E6.7EE.011F
   - 7E6.7EE.0121
   - 7E6.7EE.0130
