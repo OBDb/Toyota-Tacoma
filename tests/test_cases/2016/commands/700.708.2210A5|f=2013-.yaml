@@ -1,0 +1,7 @@
+command_id: 700.708.2210A5|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500000B
+    7082100D70000000000

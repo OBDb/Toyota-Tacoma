@@ -1,0 +1,8 @@
+command_id: 700.708.2215FA|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 51.5122
+  response: 708056215FA2100
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 54.63415
+  response: 708056215FA2300

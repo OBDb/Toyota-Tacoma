@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    TACOMA_LAT_G: -24.91384
+    TACOMA_LNG_G: 24
+    TACOMA_STEERING_ANGLE: -0.5
+    TACOMA_YAW: 0
+  response: 7B807614701FF807FFB
