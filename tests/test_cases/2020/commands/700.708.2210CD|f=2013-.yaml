@@ -1,0 +1,8 @@
+command_id: 700.708.2210CD|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_LFP: 303.5
+  response: 708056210CD8BDB
+- expected_values:
+    TACOMA_LFP: 383.2
+  response: 708056210CD8EF8
