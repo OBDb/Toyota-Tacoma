@@ -1,6 +1,9 @@
 command_id: 700.708.221087|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 28.41396
+  response: 708056210870B5E
+- expected_values:
     TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.59544
   response: 708056210870BD7
 - expected_values:
