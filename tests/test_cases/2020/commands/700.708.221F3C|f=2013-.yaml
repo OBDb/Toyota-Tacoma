@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_CAT_T_11: 426.8
   response: 70805621F3C123C
+- expected_values:
+    TACOMA_CAT_T_11: 724
+  response: 70805621F3C1DD8
