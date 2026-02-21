@@ -1,0 +1,8 @@
+command_id: 700.708.221F46|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_AMBIENT_T: 41
+  response: 70804621F4651
+- expected_values:
+    TACOMA_AMBIENT_T: 53
+  response: 70804621F465D
