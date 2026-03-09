@@ -1,5 +1,14 @@
 command_id: 700.708.22106F|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 20.61233
+  response: 7080562106F083F
+- expected_values:
     TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 29.99577
   response: 7080562106F0C00
+- expected_values:
+    TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 57.33566
+  response: 7080562106F16F0
+- expected_values:
+    TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 70.49787
+  response: 7080562106F1C34
