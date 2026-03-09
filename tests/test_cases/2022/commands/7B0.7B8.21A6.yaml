@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TACOMA_INSPECTION_MODE: 0
   response: 7B80361A600
+- expected_values:
+    TACOMA_INSPECTION_MODE: 0
+  response: 7B80461A600FF

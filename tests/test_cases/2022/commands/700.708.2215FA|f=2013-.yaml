@@ -1,0 +1,32 @@
+command_id: 700.708.2215FA|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 42.14634
+  response: 708056215FA1B00
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 45.26829
+  response: 708056215FA1D00
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 48.39024
+  response: 708056215FA1F00
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 51.5122
+  response: 708056215FA2100
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 54.63415
+  response: 708056215FA2300
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 57.7561
+  response: 708056215FA2500
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 60.87805
+  response: 708056215FA2700
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 64.78049
+  response: 708056215FA2980
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 67.90244
+  response: 708056215FA2B80
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 71.02439
+  response: 708056215FA2D80
