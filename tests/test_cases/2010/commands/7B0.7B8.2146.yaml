@@ -42,3 +42,10 @@ test_cases:
   response: |-
     7B81009614600007E7E
     7B821F2FF1F00000000
+- expected_values:
+    TACOMA_ZP_DEC: -25.11
+    TACOMA_ZP_DEC2: -25.11
+    TACOMA_ZP_YAW: -2
+  response: |-
+    7B81009614600007E80
+    7B82100FF1F00000000
