@@ -6,12 +6,12 @@ test_cases:
   response: 7B80661066B6C723B
 - expected_values:
     TACOMA_YAW_1: -2
-    TACOMA_YAW_2: -1
-  response: 7B80661067E7F7EE3
+    TACOMA_YAW_2: 0
+  response: 7B80661067E807EF2
 - expected_values:
     TACOMA_YAW_1: -2
-    TACOMA_YAW_2: -1
-  response: 7B80661067E7F7F10
+    TACOMA_YAW_2: 0
+  response: 7B80661067E807F01
 - expected_values:
     TACOMA_YAW_1: 6
     TACOMA_YAW_2: 8
