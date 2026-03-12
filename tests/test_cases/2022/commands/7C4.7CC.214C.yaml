@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_EVAPORATOR_TARGET_TEMP: 3.37
   response: 7CC04614C8151
+- expected_values:
+    TACOMA_EVAPORATOR_TARGET_TEMP: 4.5
+  response: 7CC04614C81C2

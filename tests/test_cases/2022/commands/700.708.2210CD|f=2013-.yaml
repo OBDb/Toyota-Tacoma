@@ -10,5 +10,5 @@ test_cases:
     TACOMA_LFP: 409.7
   response: 708056210CD9001
 - expected_values:
-    TACOMA_LFP: 590.4
-  response: 708056210CD9710
+    TACOMA_LFP: 664.6
+  response: 708056210CD99F6
