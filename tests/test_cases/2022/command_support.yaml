@@ -77,12 +77,15 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0101
   - 7DF.0104
+  - 7DF.0105
+  - 7DF.0106
   - 7DF.010D
   - 7DF.0110
   - 7DF.0111
   - 7DF.011C
   - 7DF.011F
   - 7DF.0121
+  - 7DF.0124
   - 7DF.012F
   - 7DF.0130
   - 7DF.0131
@@ -158,6 +161,7 @@ unsupported_commands_by_ecu:
   - 7C0.7C8.2168:TACOMA_RHEOSTAT
   - 7C0.7C8.221022:TACOMA_FUEL_LEVEL
   "7E0":
+  - 7E0.0108:SHRTFT2,SHRTFT4
   - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
@@ -165,6 +169,7 @@ unsupported_commands_by_ecu:
   "7E1":
   - 7E1.7E9.0101
   - 7E1.7E9.0104
+  - 7E1.7E9.0105
   - 7E1.7E9.010D
   - 7E1.7E9.0111
   - 7E1.7E9.011C

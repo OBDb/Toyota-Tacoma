@@ -13,6 +13,9 @@ test_cases:
     TACOMA_EVAP_FIN_THERMISTOR: 3.55
   response: 7CC03614B5F
 - expected_values:
+    TACOMA_EVAP_FIN_THERMISTOR: 4.25
+  response: 7CC03614B61
+- expected_values:
     TACOMA_EVAP_FIN_THERMISTOR: 4.95
   response: 7CC03614B63
 - expected_values:
