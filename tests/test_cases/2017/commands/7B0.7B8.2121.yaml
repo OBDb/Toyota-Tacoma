@@ -6,3 +6,27 @@ test_cases:
 - expected_values:
     TACOMA_VEHICLE_SPEED_7B0: 0
   response: 7B803612100
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 19.2
+  response: 7B80361210F
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 26.88
+  response: 7B803612115
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 39.68
+  response: 7B80361211F
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 52.48
+  response: 7B803612129
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 60.16
+  response: 7B80361212F
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 61.44
+  response: 7B803612130
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 62.72
+  response: 7B803612131
+- expected_values:
+    TACOMA_VEHICLE_SPEED_7B0: 69.12
+  response: 7B803612136

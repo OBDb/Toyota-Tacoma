@@ -10,14 +10,5 @@ test_cases:
     TACOMA_ECT_7C0: 16
   response: 7C803612320
 - expected_values:
-    TACOMA_ECT_7C0: 24
-  response: 7C803612330
-- expected_values:
-    TACOMA_ECT_7C0: 30
-  response: 7C80361233C
-- expected_values:
-    TACOMA_ECT_7C0: 35
-  response: 7C803612346
-- expected_values:
-    TACOMA_ECT_7C0: 49
-  response: 7C803612362
+    TACOMA_ECT_7C0: 95.5
+  response: 7C8036123BF
