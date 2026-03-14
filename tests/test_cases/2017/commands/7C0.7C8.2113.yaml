@@ -4,5 +4,11 @@ test_cases:
     TACOMA_BAT_V: 14.1
   response: "2113\n7C8 03 61 13 8D "
 - expected_values:
+    TACOMA_BAT_V: 13.9
+  response: 7C80361138B
+- expected_values:
+    TACOMA_BAT_V: 14
+  response: 7C80361138C
+- expected_values:
     TACOMA_BAT_V: 14.1
   response: 7C80361138D

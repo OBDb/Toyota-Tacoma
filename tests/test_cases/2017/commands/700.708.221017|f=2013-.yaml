@@ -10,14 +10,11 @@ test_cases:
     TACOMA_INJ_VOL: 0.96
   response: "221017\n708 05 62 10 17 0C 00 "
 - expected_values:
-    TACOMA_INJ_VOL: 0.99531
-  response: 708056210170C71
+    TACOMA_INJ_VOL: 0.48156
+  response: '708056210170605'
 - expected_values:
-    TACOMA_INJ_VOL: 1.36375
-  response: 70805621017110C
+    TACOMA_INJ_VOL: 1.0275
+  response: 708056210170CD8
 - expected_values:
-    TACOMA_INJ_VOL: 1.48219
-  response: '708056210171287'
-- expected_values:
-    TACOMA_INJ_VOL: 1.54375
-  response: 70805621017134C
+    TACOMA_INJ_VOL: 4.60219
+  response: '708056210173987'

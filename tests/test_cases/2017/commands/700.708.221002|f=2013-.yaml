@@ -7,8 +7,8 @@ test_cases:
     TACOMA_12V_V: 13.87203
   response: "221002\n708 05 62 10 02 2C 64 "
 - expected_values:
-    TACOMA_12V_V: 13.62301
-  response: 708056210022B98
+    TACOMA_12V_V: 13.54977
+  response: 708056210022B5C
 - expected_values:
     TACOMA_12V_V: 13.73532
   response: 708056210022BF4

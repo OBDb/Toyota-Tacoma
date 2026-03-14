@@ -7,11 +7,23 @@ test_cases:
     TACOMA_ALT_DUTY_CYCLE: 19.5122
   response: "2215FA\n708 05 62 15 FA 0C 80 "
 - expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 13.26829
+  response: 708056215FA0880
+- expected_values:
     TACOMA_ALT_DUTY_CYCLE: 16.39024
   response: 708056215FA0A80
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 19.5122
+  response: 708056215FA0C80
 - expected_values:
     TACOMA_ALT_DUTY_CYCLE: 22.63415
   response: 708056215FA0E80
 - expected_values:
     TACOMA_ALT_DUTY_CYCLE: 25.7561
   response: 708056215FA1080
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 45.26829
+  response: 708056215FA1D00
+- expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 48.39024
+  response: 708056215FA1F00
