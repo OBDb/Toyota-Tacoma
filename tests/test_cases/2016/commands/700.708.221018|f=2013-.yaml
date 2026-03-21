@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TACOMA_INJECTOR_PORT: 3.457
   response: 708056210180D81
+- expected_values:
+    TACOMA_INJECTOR_PORT: 3.641
+  response: '708056210180E39'

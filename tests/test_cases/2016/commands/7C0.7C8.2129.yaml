@@ -3,3 +3,28 @@ test_cases:
 - expected_values:
     TACOMA_FUEL_INPUT: 58
   response: 7C80361293A
+- expected_values:
+    TACOMA_FUEL_INPUT: 126
+  response: |-
+    7C80361297E
+    7C80361297E
+- expected_values:
+    TACOMA_FUEL_INPUT: 134
+  response: 7C803612986
+- expected_values:
+    TACOMA_FUEL_INPUT: 136
+  response: 7C803612988
+- expected_values:
+    TACOMA_FUEL_INPUT: 138
+  response: 7C80361298A
+- expected_values:
+    TACOMA_FUEL_INPUT: 138
+  response: |-
+    7C80361298A
+    7C80361298A
+- expected_values:
+    TACOMA_FUEL_INPUT: 139
+  response: 7C80361298B
+- expected_values:
+    TACOMA_FUEL_INPUT: 140
+  response: 7C80361298C
