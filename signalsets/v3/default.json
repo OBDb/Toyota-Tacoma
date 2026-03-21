@@ -80,7 +80,7 @@
   "signals": [
     {"id": "TACOMA_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "years": [2018], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2018], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ROUGH_IDLE_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 1"},
     {"id": "TACOMA_ROUGH_IDLE_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 2"},
@@ -140,15 +140,15 @@
   "signals": [
     {"id": "TACOMA_ALT_DUTY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 399, "div": 164, "unit": "percent" }, "name": "Alternator output duty cycle"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "years": [2018], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2018], "from": 2026 },
   "signals": [
     {"id": "TACOMA_AT_LOCK_UP_STATE", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "years": [2018], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2018], "from": 2026 },
   "signals": [
     {"id": "TACOMA_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "years": [2018], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2018], "from": 2026 },
   "signals": [
     {"id": "TACOMA_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -174,15 +174,15 @@
     {"id": "TACOMA_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655.35,            "div": 100, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
     {"id": "TACOMA_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "years": [2018], "from": 2026 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2018], "from": 2026 },
   "signals": [
     {"id": "TACOMA_LOCK_UP_STATE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "from": 2026 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
     {"id": "TACOMA_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid pan temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1628"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2016, "from": 2024 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1628"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "from": 2024 },
   "signals": [
     {"id": "TACOMA_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid post-converter temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
