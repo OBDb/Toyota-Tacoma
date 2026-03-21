@@ -3,6 +3,16 @@ test_cases:
 - expected_values:
     TACOMA_MISFIRE_CNT: 0
   response: |-
+    70810086210A5000036
+    7082100D90000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A50001E5
+    7082100DE0000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
     70810086210A500021D
     7082100D60000000000
 - expected_values:
