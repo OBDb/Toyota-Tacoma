@@ -87,6 +87,7 @@ supported_commands_by_ecu:
   - 7DF.010E
   - 7DF.010F
   - 7DF.0110
+  - 7DF.0111
   - 7DF.0113
   - 7DF.0115
   - 7DF.0119
@@ -106,6 +107,7 @@ supported_commands_by_ecu:
   - 7DF.0142
   - 7DF.0143
   - 7DF.0144
+  - 7DF.0147
   - 7DF.014C
   - 7DF.014D
   - 7DF.014E
@@ -190,6 +192,7 @@ unsupported_commands_by_ecu:
   - 7E0.010E:SPARKADV
   - 7E0.010F:IAT
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.0113:O2S11_EXISTS,O2S12_EXISTS,O2S13_EXISTS,O2S14_EXISTS,O2S21_EXISTS,O2S22_EXISTS,O2S23_EXISTS,O2S24_EXISTS
   - 7E0.0115:O2S12,SHRTFT11
   - 7E0.0119:O2S22,SHRTFT22
@@ -210,6 +213,7 @@ unsupported_commands_by_ecu:
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
+  - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
   - 7E0.014D:MIL_TIME
   - 7E0.014E:CLR_TIME
@@ -231,6 +235,7 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.010F
+  - 7E1.7E9.0111
   - 7E1.7E9.011F
   - 7E1.7E9.0121
   - 7E1.7E9.0130
