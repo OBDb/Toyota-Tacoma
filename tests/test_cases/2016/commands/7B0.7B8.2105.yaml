@@ -2,7 +2,19 @@ command_id: 7B0.7B8.2105
 test_cases:
 - expected_values:
     TACOMA_DECEL: -0.21388
+    TACOMA_DECEL_2: 0.07129
+  response: |-
+    7B8100961057E800414
+    7B82113014200000000
+- expected_values:
+    TACOMA_DECEL: -0.21388
     TACOMA_DECEL_2: 0.35647
   response: |-
     7B8100961057E820271
     7B82100FF5700000000
+- expected_values:
+    TACOMA_DECEL: 0.21388
+    TACOMA_DECEL_2: 0.07129
+  response: |-
+    7B81009610581800323
+    7B82100002100000000
