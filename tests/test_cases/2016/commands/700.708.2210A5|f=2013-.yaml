@@ -10,3 +10,8 @@ test_cases:
   response: |-
     70810086210A50000D9
     7082100DD0000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 1
+  response: |-
+    70810086210A501020C
+    7082100D20000000000
