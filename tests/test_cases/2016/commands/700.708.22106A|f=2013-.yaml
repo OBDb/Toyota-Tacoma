@@ -4,8 +4,8 @@ test_cases:
     TACOMA_FUEL_PUMP_DUTY_RATIO: 225.36585
   response: 7080562106A0E70
 - expected_values:
-    TACOMA_FUEL_PUMP_DUTY_RATIO: 256.46341
-  response: 7080562106A106E
-- expected_values:
     TACOMA_FUEL_PUMP_DUTY_RATIO: 264.39024
   response: 7080562106A10F0
+- expected_values:
+    TACOMA_FUEL_PUMP_DUTY_RATIO: 269.57317
+  response: 7080562106A1145
