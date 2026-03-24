@@ -1,0 +1,29 @@
+command_id: 700.708.22106C|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 503
+  response: 7080562106C01F7
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 504
+  response: 7080562106C01F8
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 505
+  response: 7080562106C01F9
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 506
+  response: 7080562106C01FA
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 507
+  response: 7080562106C01FB
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 508
+  response: 7080562106C01FC
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 509
+  response: 7080562106C01FD
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 510
+  response: 7080562106C01FE
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 511
+  response: 7080562106C01FF

@@ -1,0 +1,8 @@
+command_id: 700.708.22108D|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INTAKE_VVT_OVER_RET_LEARN_B1: 32.16796
+  response: 7080562108D0CDE
+- expected_values:
+    TACOMA_INTAKE_VVT_OVER_RET_LEARN_B1: 32.49022
+  response: 7080562108D0CFF
