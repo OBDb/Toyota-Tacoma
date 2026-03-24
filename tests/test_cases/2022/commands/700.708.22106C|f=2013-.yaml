@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 43958
   response: 7080562106CABB6
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 44679
+  response: 7080562106CAE87

@@ -7,6 +7,10 @@ test_cases:
 - expected_values:
     TACOMA_YAW_1: 0
     TACOMA_YAW_2: -1
+  response: 7B8056106807F88
+- expected_values:
+    TACOMA_YAW_1: 0
+    TACOMA_YAW_2: -1
   response: 7B8056106807FC4
 - expected_values:
     TACOMA_YAW_1: 0
