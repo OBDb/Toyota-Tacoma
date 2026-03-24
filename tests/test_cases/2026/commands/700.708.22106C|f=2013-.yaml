@@ -4,26 +4,8 @@ test_cases:
     TACOMA_DIST_SINCE_BAT_DISC: 503
   response: 7080562106C01F7
 - expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 504
-  response: 7080562106C01F8
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 505
-  response: 7080562106C01F9
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 506
-  response: 7080562106C01FA
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 507
-  response: 7080562106C01FB
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 508
-  response: 7080562106C01FC
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 509
-  response: 7080562106C01FD
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 510
-  response: 7080562106C01FE
-- expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 511
   response: 7080562106C01FF
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 512
+  response: 7080562106C0200
