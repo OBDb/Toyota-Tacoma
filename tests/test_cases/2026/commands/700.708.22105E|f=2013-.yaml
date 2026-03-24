@@ -1,0 +1,32 @@
+command_id: 700.708.22105E|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 17
+  response: '7080462105E39'
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 18
+  response: 7080462105E3A
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 19
+  response: 7080462105E3B
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 20
+  response: 7080462105E3C
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 21
+  response: 7080462105E3D
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 22
+  response: 7080462105E3E
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 23
+  response: 7080462105E3F
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 24
+  response: '7080462105E40'
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 25
+  response: '7080462105E41'
+- expected_values:
+    TACOMA_ECU_INTERNAL_T: 26
+  response: '7080462105E42'

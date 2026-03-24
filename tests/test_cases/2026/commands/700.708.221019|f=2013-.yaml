@@ -1,0 +1,14 @@
+command_id: 700.708.221019|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INJECTION: DIRECT
+  response: 7080762101901748A28
+- expected_values:
+    TACOMA_INJECTION: DIRECT
+  response: '7080762101901818000'
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: 7080762101902778A8C
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: 7080762101902F78BB8
