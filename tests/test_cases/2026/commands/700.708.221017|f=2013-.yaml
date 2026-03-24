@@ -1,11 +1,8 @@
 command_id: 700.708.221017|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_INJ_VOL: 0.35656
-  response: '708056210170475'
-- expected_values:
-    TACOMA_INJ_VOL: 2.08219
-  response: 708056210171A07
+    TACOMA_INJ_VOL: 0
+  response: '708056210170000'
 - expected_values:
     TACOMA_INJ_VOL: 2.47688
   response: 708056210171EF6
