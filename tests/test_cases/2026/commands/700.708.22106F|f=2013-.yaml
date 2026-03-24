@@ -4,5 +4,8 @@ test_cases:
     TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 0
   response: 7080562106F0000
 - expected_values:
+    TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 32.66141
+  response: 7080562106F0D11
+- expected_values:
     TACOMA_INTAKE_VVT_TARGET_ANGLE_B1: 34.9853
   response: 7080562106F0DFF
