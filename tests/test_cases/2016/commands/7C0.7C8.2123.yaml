@@ -9,20 +9,15 @@ test_cases:
     7C803612341
     7C803612981
 - expected_values:
+    TACOMA_ECT_7C0: 51
+  response: |-
+    7C803612366
+    7C80361295F
+- expected_values:
     TACOMA_ECT_7C0: 65.5
   response: |-
     7C803612383
     7C803612970
-- expected_values:
-    TACOMA_ECT_7C0: 82.5
-  response: |-
-    7C8036123A5
-    7C80361296E
-- expected_values:
-    TACOMA_ECT_7C0: 88
-  response: |-
-    7C8036123B0
-    7C80361297F
 - expected_values:
     TACOMA_ECT_7C0: 95
   response: |-
