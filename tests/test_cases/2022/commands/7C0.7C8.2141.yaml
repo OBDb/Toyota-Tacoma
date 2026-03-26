@@ -4,6 +4,9 @@ test_cases:
     TACOMA_OIL_CHANGE_ODO: 2092.1472
   response: 7C80361410D
 - expected_values:
+    TACOMA_OIL_CHANGE_ODO: 2735.8848
+  response: 7C803614111
+- expected_values:
     TACOMA_OIL_CHANGE_ODO: 3540.5568
   response: 7C803614116
 - expected_values:
