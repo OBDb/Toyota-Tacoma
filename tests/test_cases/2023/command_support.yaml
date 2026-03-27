@@ -167,6 +167,7 @@ supported_commands_by_ecu:
   - 0111:TP
   - 011C:OBDSUP
   - 011F:RUNTM
+  - 7E1.7E9.0111
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221046|f=2013-:TACOMA_COOLING_FAN_DUTY_RATIO
@@ -240,7 +241,6 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.010F
-  - 7E1.7E9.0111
   - 7E1.7E9.011C
   - 7E1.7E9.011F
   - 7E1.7E9.0121
