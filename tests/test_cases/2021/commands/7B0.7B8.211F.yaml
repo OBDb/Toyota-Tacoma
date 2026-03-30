@@ -5,6 +5,10 @@ test_cases:
     TACOMA_STOP_LIGHT_SW: 0
   response: 7B805611F000010
 - expected_values:
+    TACOMA_PARKING_BRAKE_SW: 1
+    TACOMA_STOP_LIGHT_SW: 0
+  response: 7B805611F400010
+- expected_values:
     TACOMA_PARKING_BRAKE_SW: 0
     TACOMA_STOP_LIGHT_SW: 1
   response: 7B805611F802010
