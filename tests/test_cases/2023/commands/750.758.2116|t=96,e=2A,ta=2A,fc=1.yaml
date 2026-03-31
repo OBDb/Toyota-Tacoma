@@ -6,9 +6,9 @@ test_cases:
     7582A10076116000000
     7582A21330000000000
 - expected_values:
-    TACOMA_TIRE_T_RL: -4
+    TACOMA_TIRE_T_RL: -5
   response: |-
-    7582A10076116000024
+    7582A10076116000023
     7582A21000000000000
 - expected_values:
     TACOMA_TIRE_T_FR: 47
