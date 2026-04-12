@@ -79,6 +79,7 @@ supported_commands_by_ecu:
   - 0144:EQ_RAT
   - 0145:TP_R
   - 0146:AAT
+  - 0147:TP_B
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221084|f=2013-:TACOMA_ROUGH_IDLE_CYL_1,TACOMA_ROUGH_IDLE_CYL_2,TACOMA_ROUGH_IDLE_CYL_3,TACOMA_ROUGH_IDLE_CYL_4
