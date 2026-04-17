@@ -5,10 +5,10 @@ test_cases:
   response: 70807621019015D8AAF
 - expected_values:
     TACOMA_INJECTION: BOTH
-  response: '7080762101902768000'
+  response: '7080762101902738000'
 - expected_values:
     TACOMA_INJECTION: BOTH
   response: 7080762101902A58BB8
 - expected_values:
     TACOMA_INJECTION: BOTH
-  response: 7080762101902F68BB8
+  response: 7080762101902FF8000
