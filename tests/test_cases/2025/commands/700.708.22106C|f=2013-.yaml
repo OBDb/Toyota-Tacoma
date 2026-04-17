@@ -1,11 +1,11 @@
 command_id: 700.708.22106C|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 2436
+  response: 7080562106C0984
+- expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 5142
   response: 7080562106C1416
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 5174
-  response: 7080562106C1436
 - expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 21018
   response: 7080562106C521A
