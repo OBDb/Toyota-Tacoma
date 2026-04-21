@@ -14,5 +14,5 @@ test_cases:
     7C803612100
     7C80361294D
 - expected_values:
-    TACOMA_VSS: 115
-  response: 7C803612173
+    TACOMA_VSS: 117
+  response: 7C803612175
