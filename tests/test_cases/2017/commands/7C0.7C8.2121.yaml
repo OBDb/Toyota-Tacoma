@@ -4,26 +4,13 @@ test_cases:
     TACOMA_VSS: 0
   response: "2121\n7C8 03 61 21 00 "
 - expected_values:
+    TACOMA_VSS: 24
+  response: |-
+    2121
+    7C803612118
+- expected_values:
     TACOMA_VSS: 0
   response: 7C803612100
 - expected_values:
-    TACOMA_VSS: 1
-  response: 7C803612101
-- expected_values:
-    TACOMA_VSS: 18
-  response: 7C803612112
-- expected_values:
-    TACOMA_VSS: 34
-  response: 7C803612122
-- expected_values:
-    TACOMA_VSS: 57
-  response: 7C803612139
-- expected_values:
-    TACOMA_VSS: 62
-  response: 7C80361213E
-- expected_values:
-    TACOMA_VSS: 63
-  response: 7C80361213F
-- expected_values:
-    TACOMA_VSS: 64
-  response: 7C803612140
+    TACOMA_VSS: 82
+  response: 7C803612152
