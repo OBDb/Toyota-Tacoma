@@ -9,6 +9,11 @@ test_cases:
     2121
     7C803612118
 - expected_values:
+    TACOMA_VSS: 47
+  response: |-
+    2121
+    7C80361212F
+- expected_values:
     TACOMA_VSS: 0
   response: 7C803612100
 - expected_values:

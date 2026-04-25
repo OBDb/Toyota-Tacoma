@@ -7,6 +7,11 @@ test_cases:
     TACOMA_ECT: 59.05
   response: "2126\n7CC 03 61 26 A5 "
 - expected_values:
+    TACOMA_ECT: 30.35
+  response: |-
+    2126
+    7CC03612653
+- expected_values:
     TACOMA_ECT: 16.35
   response: 7CC0361262B
 - expected_values:
