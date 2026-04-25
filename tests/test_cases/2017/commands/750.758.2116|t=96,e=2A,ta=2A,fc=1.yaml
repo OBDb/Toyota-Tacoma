@@ -7,6 +7,15 @@ test_cases:
     TACOMA_TIRE_T_RR: 8
   response: "2116\n758 2A 10 07 61 16 32 33 2E \n758 2A 21 30 00 00 00 00 00 "
 - expected_values:
+    TACOMA_TIRE_T_FL: 13
+    TACOMA_TIRE_T_FR: 15
+    TACOMA_TIRE_T_RL: 13
+    TACOMA_TIRE_T_RR: 15
+  response: |-
+    2116
+    7582A10076116353735
+    7582A21370000000000
+- expected_values:
     TACOMA_TIRE_T_FR: 11
     TACOMA_TIRE_T_RL: 6
     TACOMA_TIRE_T_RR: 8
@@ -29,9 +38,8 @@ test_cases:
     7582A212F0000000000
 - expected_values:
     TACOMA_TIRE_T_FL: 13
-    TACOMA_TIRE_T_FR: 16
   response: |-
-    7582A10076116353800
+    7582A10076116350000
     7582A21000000000000
 - expected_values:
     TACOMA_TIRE_T_FL: 41
