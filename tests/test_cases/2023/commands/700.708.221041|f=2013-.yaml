@@ -13,6 +13,10 @@ test_cases:
     TACOMA_ECT_INIT: 75
   response: 70805621041B8B8
 - expected_values:
+    TACOMA_ECT_IGN: 91.875
+    TACOMA_ECT_INIT: 91.875
+  response: 70805621041D3D3
+- expected_values:
     TACOMA_ECT_IGN: 92.5
     TACOMA_ECT_INIT: 92.5
   response: 70805621041D4D4

@@ -7,6 +7,9 @@ test_cases:
     TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 40.07019
   response: 7080562106219A5
 - expected_values:
+    TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 40.27161
+  response: 7080562106219C6
+- expected_values:
     TACOMA_EXHAUST_VVT_OCV_CONTROL_DUTY: 40.89418
   response: 708056210621A2C
 - expected_values:
