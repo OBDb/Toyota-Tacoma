@@ -9,9 +9,9 @@ test_cases:
     TACOMA_ATF_TQC_T: 22.5
   response: 7E80661823DE03E80
 - expected_values:
-    TACOMA_ATF_PAN_T: 30
-    TACOMA_ATF_TQC_T: 35.625
-  response: 7E806618246004BA0
+    TACOMA_ATF_PAN_T: 25
+    TACOMA_ATF_TQC_T: 24.375
+  response: '7E806618241004060'
 - expected_values:
     TACOMA_ATF_PAN_T: 31.875
     TACOMA_ATF_TQC_T: 31.875
