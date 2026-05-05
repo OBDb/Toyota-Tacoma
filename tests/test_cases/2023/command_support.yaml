@@ -170,6 +170,7 @@ supported_commands_by_ecu:
   - 0111:TP
   - 011C:OBDSUP
   - 011F:RUNTM
+  - 7E1.7E9.0104
   - 7E1.7E9.0111
   - 7E1.7E9.0131
 unsupported_commands_by_ecu:
@@ -241,7 +242,6 @@ unsupported_commands_by_ecu:
   - 7E0.01A6:ODO
   "7E1":
   - 7E1.7E9.0101
-  - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010C
   - 7E1.7E9.010D
