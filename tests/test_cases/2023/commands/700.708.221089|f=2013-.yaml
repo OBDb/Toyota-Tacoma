@@ -10,6 +10,9 @@ test_cases:
     TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 69.77732
   response: 708056210892CAB
 - expected_values:
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 69.94818
+  response: 708056210892CC7
+- expected_values:
     TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 69.98479
   response: 708056210892CCD
 - expected_values:
