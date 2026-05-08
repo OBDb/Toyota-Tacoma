@@ -33,6 +33,12 @@ test_cases:
 - expected_values:
     TACOMA_IDLE_SAC_CYL_1: 0
     TACOMA_IDLE_SAC_CYL_2: 3
+    TACOMA_IDLE_SAC_CYL_3: 0
+    TACOMA_IDLE_SAC_CYL_4: 3
+  response: '7080762107800300030'
+- expected_values:
+    TACOMA_IDLE_SAC_CYL_1: 0
+    TACOMA_IDLE_SAC_CYL_2: 3
     TACOMA_IDLE_SAC_CYL_3: 1
     TACOMA_IDLE_SAC_CYL_4: 2
   response: '7080762107800301020'
