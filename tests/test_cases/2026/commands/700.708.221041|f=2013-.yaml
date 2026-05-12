@@ -1,6 +1,14 @@
 command_id: 700.708.221041|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_ECT_IGN: 39.375
+    TACOMA_ECT_INIT: 74.375
+  response: 708056210417FB7
+- expected_values:
+    TACOMA_ECT_IGN: 39.375
+    TACOMA_ECT_INIT: 79.375
+  response: 708056210417FBF
+- expected_values:
     TACOMA_ECT_IGN: 44.375
     TACOMA_ECT_INIT: 44.375
   response: '708056210418787'
