@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TACOMA_ECT_7C0: 88
   response: 7C8036123B0
+- expected_values:
+    TACOMA_ECT_7C0: 88.5
+  response: 7C8036123B1
