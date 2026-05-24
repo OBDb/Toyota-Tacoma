@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2105|f=-2018
 test_cases:
 - expected_values:
+    TACOMA_CATALYST_T_B1S1: 823.9
+    TACOMA_CATALYST_T_B1S2: 823.9
+  response: |-
+    7E8100C61054CE921BF
+    7E82121BF1E1E1E1E00
+- expected_values:
     TACOMA_CATALYST_T_B1S1: 844.8
     TACOMA_CATALYST_T_B1S2: 844.8
   response: |-
@@ -60,9 +66,3 @@ test_cases:
   response: |-
     7E8100C61054EDA0F23
     7E8210F230A110A1100
-- expected_values:
-    TACOMA_CATALYST_T_B1S1: 350
-    TACOMA_CATALYST_T_B1S2: 350
-  response: |-
-    7E8100C61054EE70F3C
-    7E8210F3C0A3D0A3D00
