@@ -1,8 +1,17 @@
 command_id: 7C0.7C8.2113
 test_cases:
 - expected_values:
+    TACOMA_BAT_V: 13.1
+  response: 7C803611383
+- expected_values:
     TACOMA_BAT_V: 13.2
   response: 7C803611384
 - expected_values:
     TACOMA_BAT_V: 13.3
   response: 7C803611385
+- expected_values:
+    TACOMA_BAT_V: 13.4
+  response: 7C803611386
+- expected_values:
+    TACOMA_BAT_V: 13.5
+  response: 7C803611387
