@@ -19,6 +19,12 @@ test_cases:
     7B8100961057B8002E6
     7B82100005B00000000
 - expected_values:
+    TACOMA_DECEL: -0.21388
+    TACOMA_DECEL_2: 0.21388
+  response: |-
+    7B8100961057E810342
+    7B82100005100000000
+- expected_values:
     TACOMA_DECEL: 0.07129
     TACOMA_DECEL_2: 0.07129
   response: |-

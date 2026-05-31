@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TACOMA_PARKING_BRAKE_2: 1
   response: 7D80561620B0000
+- expected_values:
+    TACOMA_PARKING_BRAKE_2: 1
+  response: 7D80561621B0000
