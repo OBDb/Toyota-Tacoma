@@ -3,5 +3,25 @@ test_cases:
 - expected_values:
     TACOMA_MISFIRE_CNT: 0
   response: |-
-    70810086210A5000054
-    7082100D50000000000
+    70810086210A5000019
+    7082100D60000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500006D
+    7082100D20000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500007E
+    7082100CB0000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A50001E4
+    7082100D40000000000
+- expected_values:
+    TACOMA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500020C
+    7082100D70000000000
