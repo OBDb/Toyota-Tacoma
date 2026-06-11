@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TACOMA_EXHAUST_VVT_ANGLE_B1: 0.44916
   response: 70805621088002E
+- expected_values:
+    TACOMA_EXHAUST_VVT_ANGLE_B1: 33.94053
+  response: 708056210880D94
