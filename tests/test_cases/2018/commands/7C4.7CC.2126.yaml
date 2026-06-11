@@ -4,5 +4,5 @@ test_cases:
     TACOMA_ECT: 57.65
   response: 7CC036126A1
 - expected_values:
-    TACOMA_ECT: 88.8
-  response: 7CC036126FA
+    TACOMA_ECT: 90.55
+  response: 7CC036126FF
