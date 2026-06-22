@@ -91,6 +91,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0144
+  - 7DF.0147
   - 7DF.014D
   - 7DF.014E
   - 7DF.01A6
@@ -166,6 +167,7 @@ unsupported_commands_by_ecu:
   - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
   - 7E0.0146:AAT
+  - 7E0.0147:TP_B
   "7E1":
   - 7E1.7E9.0101
   - 7E1.7E9.0104
