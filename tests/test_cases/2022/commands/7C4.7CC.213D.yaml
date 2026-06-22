@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     TACOMA_ADJUSTED_AMBIENT_T: 35.44
   response: 7CC03613DCF
+- expected_values:
+    TACOMA_ADJUSTED_AMBIENT_T: 36.08
+  response: 7CC03613DD1
