@@ -25,11 +25,23 @@ test_cases:
     TACOMA_YAW: 0
   response: 7B807614700FF807FF9
 - expected_values:
+    TACOMA_LAT_G: -25.11
+    TACOMA_LNG_G: 24
+    TACOMA_STEERING_ANGLE: 4.1
+    TACOMA_YAW: 0
+  response: 7B807614700FF808029
+- expected_values:
     TACOMA_LAT_G: -24.91384
     TACOMA_LNG_G: -24.32537
     TACOMA_STEERING_ANGLE: -3
     TACOMA_YAW: 0
   response: 7B80761470104807FE2
+- expected_values:
+    TACOMA_LAT_G: -24.91384
+    TACOMA_LNG_G: 24
+    TACOMA_STEERING_ANGLE: 2.7
+    TACOMA_YAW: 0
+  response: 7B807614701FE80801B
 - expected_values:
     TACOMA_LAT_G: -24.71769
     TACOMA_LNG_G: 24
