@@ -22,6 +22,9 @@ test_cases:
     TACOMA_ALT_DUTY_CYCLE: 25.7561
   response: 708056215FA1080
 - expected_values:
+    TACOMA_ALT_DUTY_CYCLE: 28.87805
+  response: 708056215FA1280
+- expected_values:
     TACOMA_ALT_DUTY_CYCLE: 45.26829
   response: 708056215FA1D00
 - expected_values:
