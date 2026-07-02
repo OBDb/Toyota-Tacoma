@@ -13,6 +13,12 @@ test_cases:
     TACOMA_TIRE_RR_SPD: 1.28
   response: 7B806610301010101
 - expected_values:
+    TACOMA_TIRE_FL_SPD: 12.8
+    TACOMA_TIRE_FR_SPD: 12.8
+    TACOMA_TIRE_RL_SPD: 12.8
+    TACOMA_TIRE_RR_SPD: 12.8
+  response: 7B80661030A0A0A0A
+- expected_values:
     TACOMA_TIRE_FL_SPD: 16.64
     TACOMA_TIRE_FR_SPD: 16.64
     TACOMA_TIRE_RL_SPD: 16.64
