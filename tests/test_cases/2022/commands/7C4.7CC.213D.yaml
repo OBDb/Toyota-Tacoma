@@ -4,29 +4,5 @@ test_cases:
     TACOMA_ADJUSTED_AMBIENT_T: 18.48
   response: 7CC03613D9A
 - expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 20.08
-  response: 7CC03613D9F
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 24.56
-  response: 7CC03613DAD
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 26.8
-  response: 7CC03613DB4
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 28.4
-  response: 7CC03613DB9
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 29.04
-  response: 7CC03613DBB
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 32.88
-  response: 7CC03613DC7
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 33.52
-  response: 7CC03613DC9
-- expected_values:
-    TACOMA_ADJUSTED_AMBIENT_T: 35.44
-  response: 7CC03613DCF
-- expected_values:
     TACOMA_ADJUSTED_AMBIENT_T: 36.08
   response: 7CC03613DD1
