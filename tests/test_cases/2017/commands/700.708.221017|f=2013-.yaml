@@ -13,8 +13,8 @@ test_cases:
     TACOMA_INJ_VOL: 0.48156
   response: '708056210170605'
 - expected_values:
-    TACOMA_INJ_VOL: 1.0275
-  response: 708056210170CD8
+    TACOMA_INJ_VOL: 1.43875
+  response: 7080562101711FC
 - expected_values:
     TACOMA_INJ_VOL: 4.60219
   response: '708056210173987'
