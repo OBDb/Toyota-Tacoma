@@ -4,5 +4,5 @@ test_cases:
     TACOMA_EOT_V2: 20
   response: 70804621F5C3C
 - expected_values:
-    TACOMA_EOT_V2: 100
-  response: 70804621F5C8C
+    TACOMA_EOT_V2: 103
+  response: 70804621F5C8F
