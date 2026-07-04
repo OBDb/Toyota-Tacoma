@@ -5,7 +5,7 @@ test_cases:
   response: 7D8056162010000
 - expected_values:
     TACOMA_PARKING_BRAKE_2: 1
-  response: 7D8056162090000
+  response: 7D8056162192000
 - expected_values:
     TACOMA_PARKING_BRAKE_2: 1
-  response: 7D8056162094500
+  response: 7D8056162197100
