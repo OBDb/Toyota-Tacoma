@@ -1,6 +1,10 @@
 command_id: 700.708.22107B|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_EOT: 41
+  response: "708 10 22 62 10 7B 00 00 04 \n708 21 0C 01 04 CB 80 1B 85 \n708 22 0E
+    80 0A 80 25 80 F8 \n708 23 80 00 80 00 00 00 82 \n708 24 51 78 78 4B 4B 10 5D "
+- expected_values:
     TACOMA_EOT: 19
   response: |-
     708102262107B000000
