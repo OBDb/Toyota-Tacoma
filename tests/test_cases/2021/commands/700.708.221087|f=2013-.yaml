@@ -1,0 +1,14 @@
+command_id: 700.708.221087|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 5.03835
+  response: '708056210870204'
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 27.48636
+  response: 708056210870AFF
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.99577
+  response: 708056210870C00
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 57.42354
+  response: 7080562108716F9
