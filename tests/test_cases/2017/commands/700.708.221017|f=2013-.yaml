@@ -1,0 +1,20 @@
+command_id: 700.708.221017|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INJ_VOL: 0.94
+  response: "221017\n708 05 62 10 17 0B C0 "
+- expected_values:
+    TACOMA_INJ_VOL: 0.95531
+  response: "221017\n708 05 62 10 17 0B F1 "
+- expected_values:
+    TACOMA_INJ_VOL: 0.96
+  response: "221017\n708 05 62 10 17 0C 00 "
+- expected_values:
+    TACOMA_INJ_VOL: 0.48156
+  response: '708056210170605'
+- expected_values:
+    TACOMA_INJ_VOL: 1.43875
+  response: 7080562101711FC
+- expected_values:
+    TACOMA_INJ_VOL: 4.60219
+  response: '708056210173987'

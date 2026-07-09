@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.213C
+test_cases:
+- expected_values:
+    TACOMA_STOP_LIGHT_RELAY: 0
+  response: '7B8 03 61 3C 00 '
+- expected_values:
+    TACOMA_STOP_LIGHT_RELAY: 0
+  response: 7B803613C00

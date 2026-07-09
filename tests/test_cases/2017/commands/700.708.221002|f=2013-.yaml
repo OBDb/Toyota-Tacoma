@@ -1,0 +1,27 @@
+command_id: 700.708.221002|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_12V_V: 13.82809
+  response: "221002\n708 05 62 10 02 2C 40 "
+- expected_values:
+    TACOMA_12V_V: 13.87203
+  response: "221002\n708 05 62 10 02 2C 64 "
+- expected_values:
+    TACOMA_12V_V: 13.96481
+  response: |-
+    221002
+    708056210022CB0
+- expected_values:
+    TACOMA_12V_V: 14.01364
+  response: |-
+    221002
+    708056210022CD8
+- expected_values:
+    TACOMA_12V_V: 13.30563
+  response: 708056210022A94
+- expected_values:
+    TACOMA_12V_V: 13.73532
+  response: 708056210022BF4
+- expected_values:
+    TACOMA_12V_V: 13.75973
+  response: 708056210022C08

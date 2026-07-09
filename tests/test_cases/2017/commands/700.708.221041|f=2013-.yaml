@@ -1,0 +1,22 @@
+command_id: 700.708.221041|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_ECT_IGN: 6.875
+    TACOMA_ECT_INIT: 7.5
+  response: "221041\n708 05 62 10 41 4B 4C "
+- expected_values:
+    TACOMA_ECT_IGN: 6.875
+    TACOMA_ECT_INIT: 7.5
+  response: 708056210414B4C
+- expected_values:
+    TACOMA_ECT_IGN: 17.5
+    TACOMA_ECT_INIT: 17.5
+  response: 708056210415C5C
+- expected_values:
+    TACOMA_ECT_IGN: 29.375
+    TACOMA_ECT_INIT: 29.375
+  response: 708056210416F6F
+- expected_values:
+    TACOMA_ECT_IGN: 41.25
+    TACOMA_ECT_INIT: 41.25
+  response: '708056210418282'
