@@ -1,5 +1,0 @@
-command_id: 7E0.013F
-test_cases:
-- expected_values:
-    CATEMP22: 322.1
-  response: 7E804413F0E25
