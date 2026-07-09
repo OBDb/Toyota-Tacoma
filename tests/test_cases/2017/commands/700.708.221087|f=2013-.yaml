@@ -1,0 +1,20 @@
+command_id: 700.708.221087|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.8786
+  response: "221087\n708 05 62 10 87 0B F4 "
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.95671
+  response: "221087\n708 05 62 10 87 0B FC "
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.99577
+  response: "221087\n708 05 62 10 87 0C 00 "
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 16.24771
+  response: '708056210870680'
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.93718
+  response: 708056210870BFA
+- expected_values:
+    TACOMA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 30.24964
+  response: 708056210870C1A

@@ -1,0 +1,32 @@
+command_id: 700.708.221071|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 0
+  response: '708056210710000'
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 4.94071
+  response: 7080562107101FA
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 4.9993
+  response: '708056210710200'
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 9.87165
+  response: 7080562107103F3
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 14.26557
+  response: 7080562107105B5
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 16.76521
+  response: 7080562107106B5
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 24.38133
+  response: 7080562107109C1
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 40.01389
+  response: '708056210711002'
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 40.51187
+  response: '708056210711035'
+- expected_values:
+    TACOMA_EXHAUST_VVT_TARGET_ANGLE_B1: 41.24418
+  response: '708056210711080'

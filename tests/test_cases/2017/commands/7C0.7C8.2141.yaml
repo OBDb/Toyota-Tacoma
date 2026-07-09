@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2141
+test_cases:
+- expected_values:
+    TACOMA_OIL_CHANGE_ODO: 5471.7696
+  response: "2141\n7C8 03 61 41 22 "
+- expected_values:
+    TACOMA_OIL_CHANGE_ODO: 4184.2944
+  response: 7C80361411A
+- expected_values:
+    TACOMA_OIL_CHANGE_ODO: 5471.7696
+  response: 7C803614122
+- expected_values:
+    TACOMA_OIL_CHANGE_ODO: 6920.1792
+  response: 7C80361412B
+- expected_values:
+    TACOMA_OIL_CHANGE_ODO: 7242.048
+  response: 7C80361412D
