@@ -1,0 +1,14 @@
+command_id: 700.708.221F3E|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_CAT_T_12: 204.4
+  response: 70805621F3E098C
+- expected_values:
+    TACOMA_CAT_T_12: 268.1
+  response: 70805621F3E0C09
+- expected_values:
+    TACOMA_CAT_T_12: 368.5
+  response: 70805621F3E0FF5
+- expected_values:
+    TACOMA_CAT_T_12: 474
+  response: 70805621F3E1414

@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2101|f=-2018
+test_cases:
+- expected_values:
+    TACOMA_CALCULATED_LOAD_7E0: 0
+    TACOMA_VEHICLE_LOAD: 2.88853
+  response: '7E806610100076500'
