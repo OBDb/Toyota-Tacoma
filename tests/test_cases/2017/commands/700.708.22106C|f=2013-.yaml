@@ -10,17 +10,5 @@ test_cases:
     TACOMA_DIST_SINCE_BAT_DISC: 2020
   response: 7080562106C07E4
 - expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 2262
-  response: 7080562106C08D6
-- expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 4112
   response: 7080562106C1010
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 4113
-  response: 7080562106C1011
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 4114
-  response: 7080562106C1012
-- expected_values:
-    TACOMA_DIST_SINCE_BAT_DISC: 4115
-  response: 7080562106C1013

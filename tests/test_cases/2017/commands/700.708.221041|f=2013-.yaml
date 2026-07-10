@@ -20,3 +20,7 @@ test_cases:
     TACOMA_ECT_IGN: 41.25
     TACOMA_ECT_INIT: 41.25
   response: '708056210418282'
+- expected_values:
+    TACOMA_ECT_IGN: 43.75
+    TACOMA_ECT_INIT: 44.375
+  response: '708056210418687'

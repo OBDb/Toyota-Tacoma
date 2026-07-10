@@ -7,8 +7,8 @@ test_cases:
     TACOMA_TF2_CONV: 68
   response: 709056216283C00
 - expected_values:
-    TACOMA_TF2_CONV: 74.75
-  response: 709056216283FC0
+    TACOMA_TF2_CONV: 143.375
+  response: '7090562162865E0'
 - expected_values:
-    TACOMA_TF2_CONV: 145.625
-  response: '709056216286720'
+    TACOMA_TF2_CONV: 205.25
+  response: '709056216288840'
