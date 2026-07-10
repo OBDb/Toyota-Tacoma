@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_INTAKE_VVT_OVER_RET_LEARN_B1: 31.1621
   response: 7080562108D0C77
+- expected_values:
+    TACOMA_INTAKE_VVT_OVER_RET_LEARN_B1: 33.05663
+  response: 7080562108D0D39

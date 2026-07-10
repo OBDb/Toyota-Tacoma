@@ -5,6 +5,12 @@ test_cases:
   response: 70807621019026D8000
 - expected_values:
     TACOMA_INJECTION: BOTH
+  response: 70807621019027A8000
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: '7080762101902878000'
+- expected_values:
+    TACOMA_INJECTION: BOTH
   response: 7080762101902BA8000
 - expected_values:
     TACOMA_INJECTION: BOTH
@@ -14,4 +20,13 @@ test_cases:
   response: 7080762101902CC8000
 - expected_values:
     TACOMA_INJECTION: BOTH
+  response: 7080762101902EA8B54
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: 7080762101902ED8000
+- expected_values:
+    TACOMA_INJECTION: BOTH
   response: 7080762101902FB8A8C
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: 7080762101902FF8000
