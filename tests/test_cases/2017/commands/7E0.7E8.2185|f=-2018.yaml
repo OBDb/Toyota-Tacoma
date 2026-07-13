@@ -4,3 +4,23 @@ test_cases:
     TACOMA_GEAR_V2: 1
     TACOMA_TORQUE_CONVERTER_LOCKUP: 0
   response: '7E8056185010010'
+- expected_values:
+    TACOMA_GEAR_V2: 2
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185020010'
+- expected_values:
+    TACOMA_GEAR_V2: 2
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185022010'
+- expected_values:
+    TACOMA_GEAR_V2: 4
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185042018'
+- expected_values:
+    TACOMA_GEAR_V2: 5
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185052010'
+- expected_values:
+    TACOMA_GEAR_V2: 5
+    TACOMA_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185052018'
