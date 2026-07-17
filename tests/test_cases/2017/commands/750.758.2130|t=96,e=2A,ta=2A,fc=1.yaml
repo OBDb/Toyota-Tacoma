@@ -61,9 +61,8 @@ test_cases:
 - expected_values:
     TACOMA_TIRE_P_FL: 3.81034
     TACOMA_TIRE_P_FR: 3.81034
-    TACOMA_TIRE_P_RL: 3.81034
   response: |-
-    7582A10076130FAFAFA
+    7582A10076130FAFA00
     7582A21000000000000
 - expected_values:
     TACOMA_TIRE_P_FL: 2.39655
