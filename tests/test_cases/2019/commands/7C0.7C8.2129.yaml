@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_FUEL_INPUT: 85
   response: 7C803612955
+- expected_values:
+    TACOMA_FUEL_INPUT: 144
+  response: 7C803612990
