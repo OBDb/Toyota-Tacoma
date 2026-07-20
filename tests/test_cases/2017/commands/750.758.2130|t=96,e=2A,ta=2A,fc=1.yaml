@@ -27,6 +27,11 @@ test_cases:
     7582A10076130000000
     7582A21910000000000
 - expected_values:
+    TACOMA_TIRE_P_RR: 3.68966
+  response: |-
+    7582A10076130000000
+    7582A21F30000000000
+- expected_values:
     TACOMA_TIRE_P_RL: 3.68966
   response: |-
     7582A100761300000F3
