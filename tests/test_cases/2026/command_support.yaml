@@ -99,6 +99,8 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  "7E2":
+  - 7E2.7EA.0131
 unsupported_commands_by_ecu:
   "701":
   - 701.709.221628|f=2013-:TACOMA_TF2_CONV
@@ -189,7 +191,6 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.0111
   - 7E2.7EA.0121
   - 7E2.7EA.0130
-  - 7E2.7EA.0131
   - 7E2.7EA.0146
   - 7E2.7EA.014D
   - 7E2.7EA.014E
