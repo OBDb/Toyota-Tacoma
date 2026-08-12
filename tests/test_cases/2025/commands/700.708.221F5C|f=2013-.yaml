@@ -1,6 +1,12 @@
 command_id: 700.708.221F5C|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_EOT_V2: 86
+  response: '708 04 62 1F 5C 7E '
+- expected_values:
+    TACOMA_EOT_V2: 88
+  response: '708 04 62 1F 5C 80 '
+- expected_values:
     TACOMA_EOT_V2: 18
   response: 70804621F5C3A
 - expected_values:
