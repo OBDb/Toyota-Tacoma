@@ -99,6 +99,8 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  "7E1":
+  - 7E1.7E9.0104
   "7E2":
   - 7E2.7EA.0131
 unsupported_commands_by_ecu:
@@ -172,7 +174,6 @@ unsupported_commands_by_ecu:
   - 7E0.01A6:ODO
   "7E1":
   - 7E1.7E9.0101
-  - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010D
   - 7E1.7E9.0111
