@@ -1,0 +1,38 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B8100961057D7E02ED
+    7B82100FEDA00000000
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B8100961057D7E0326
+    7B82100004800000000
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B8100961057D7E0327
+    7B82100004500000000
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B8100961057D7E0327
+    7B82100004D00000000
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.21388
+  response: |-
+    7B8100961057D7E0331
+    7B82100002100000000
+- expected_values:
+    TACOMA_DECEL: -0.35647
+    TACOMA_DECEL_2: -0.07129
+  response: |-
+    7B8100961057D7F02EF
+    7B82100FEFF00000000

@@ -1,0 +1,5 @@
+command_id: 7C0.7C8.21A1
+test_cases:
+- expected_values:
+    TACOMA_KEY_REMIND_SOUND: 16
+  response: 7C80361A110

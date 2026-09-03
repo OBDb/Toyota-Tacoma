@@ -1,0 +1,8 @@
+command_id: 700.708.2210A7|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_MISFIRE_CYL1: 0
+    TACOMA_MISFIRE_CYL2: 0
+    TACOMA_MISFIRE_CYL3: 0
+    TACOMA_MISFIRE_CYL4: 0
+  response: 708076210A700000000

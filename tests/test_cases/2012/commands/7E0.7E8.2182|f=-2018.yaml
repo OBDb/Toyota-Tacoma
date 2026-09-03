@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.2182|f=-2018
+test_cases:
+- expected_values:
+    TACOMA_ATF_PAN_T: 14.375
+    TACOMA_ATF_TQC_T: 18.75
+  response: 7E806618236603AC0
+- expected_values:
+    TACOMA_ATF_PAN_T: 16.875
+    TACOMA_ATF_TQC_T: 16.875
+  response: 7E806618238E038E0
+- expected_values:
+    TACOMA_ATF_PAN_T: 20
+    TACOMA_ATF_TQC_T: 25
+  response: 7E80661823C004100
+- expected_values:
+    TACOMA_ATF_PAN_T: 98.125
+    TACOMA_ATF_TQC_T: 106.25
+  response: 7E80661828A209240

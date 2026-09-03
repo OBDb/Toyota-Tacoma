@@ -1,0 +1,22 @@
+command_id: 7B0.7B8.211F
+test_cases:
+- expected_values:
+    TACOMA_PARKING_BRAKE_SW: 0
+    TACOMA_STOP_LIGHT_SW: 0
+  response: "211F\n7B8 05 61 1F 00 00 30 "
+- expected_values:
+    TACOMA_PARKING_BRAKE_SW: 0
+    TACOMA_STOP_LIGHT_SW: 0
+  response: 7B805611F000000
+- expected_values:
+    TACOMA_PARKING_BRAKE_SW: 0
+    TACOMA_STOP_LIGHT_SW: 0
+  response: 7B805611F000030
+- expected_values:
+    TACOMA_PARKING_BRAKE_SW: 1
+    TACOMA_STOP_LIGHT_SW: 0
+  response: 7B805611F400000
+- expected_values:
+    TACOMA_PARKING_BRAKE_SW: 0
+    TACOMA_STOP_LIGHT_SW: 1
+  response: 7B805611F802000
