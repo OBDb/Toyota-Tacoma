@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2182|f=-2018
+test_cases:
+- expected_values:
+    TACOMA_ATF_PAN_T: 32.5
+    TACOMA_ATF_TQC_T: 35
+  response: 7E806618248804B00
+- expected_values:
+    TACOMA_ATF_PAN_T: 32.5
+    TACOMA_ATF_TQC_T: 36.875
+  response: 7E806618248804CE0
+- expected_values:
+    TACOMA_ATF_PAN_T: 33.125
+    TACOMA_ATF_TQC_T: 33.125
+  response: '7E806618249204920'
+- expected_values:
+    TACOMA_ATF_PAN_T: 35
+    TACOMA_ATF_TQC_T: 35
+  response: 7E80661824B004B00
+- expected_values:
+    TACOMA_ATF_PAN_T: 36.875
+    TACOMA_ATF_TQC_T: 40.625
+  response: 7E80661824CE050A0
+- expected_values:
+    TACOMA_ATF_PAN_T: 50
+    TACOMA_ATF_TQC_T: 53.125
+  response: 7E80661825A005D20

@@ -1,0 +1,11 @@
+command_id: 701.709.221628|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_TF2_CONV: 77
+  response: '709056216284100'
+- expected_values:
+    TACOMA_TF2_CONV: 80.375
+  response: '7090562162842E0'
+- expected_values:
+    TACOMA_TF2_CONV: 92.75
+  response: 7090562162849C0

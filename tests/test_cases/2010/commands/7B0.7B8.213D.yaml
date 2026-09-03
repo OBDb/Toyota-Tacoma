@@ -1,0 +1,16 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    TACOMA_ABS_WARN: 0
+    TACOMA_BRAKE_WARN: 0
+    TACOMA_BUZZER: 0
+    TACOMA_ECB_WARN: 0
+    TACOMA_SLIP_WARN: 0
+  response: 7B805613D000000
+- expected_values:
+    TACOMA_ABS_WARN: 0
+    TACOMA_BRAKE_WARN: 1
+    TACOMA_BUZZER: 0
+    TACOMA_ECB_WARN: 0
+    TACOMA_SLIP_WARN: 0
+  response: 7B805613D400000
