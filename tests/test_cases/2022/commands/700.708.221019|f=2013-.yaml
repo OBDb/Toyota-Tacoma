@@ -1,0 +1,5 @@
+command_id: 700.708.221019|f=2013-
+test_cases:
+- expected_values:
+    TACOMA_INJECTION: BOTH
+  response: 7080762101902FC8000
