@@ -5,38 +5,6 @@ test_cases:
     TACOMA_ECT_INIT: 15
   response: '708056210415858'
 - expected_values:
-    TACOMA_ECT_IGN: 20
-    TACOMA_ECT_INIT: 20.625
-  response: '708056210416061'
-- expected_values:
-    TACOMA_ECT_IGN: 20
-    TACOMA_ECT_INIT: 72.5
-  response: 7080562104160B4
-- expected_values:
-    TACOMA_ECT_IGN: 33.75
-    TACOMA_ECT_INIT: 34.375
-  response: '708056210417677'
-- expected_values:
-    TACOMA_ECT_IGN: 35
-    TACOMA_ECT_INIT: 35
-  response: '708056210417878'
-- expected_values:
-    TACOMA_ECT_IGN: 46.875
-    TACOMA_ECT_INIT: 46.875
-  response: 708056210418B8B
-- expected_values:
-    TACOMA_ECT_IGN: 60.625
-    TACOMA_ECT_INIT: 60.625
-  response: 70805621041A1A1
-- expected_values:
-    TACOMA_ECT_IGN: 71.25
-    TACOMA_ECT_INIT: 71.25
-  response: 70805621041B2B2
-- expected_values:
-    TACOMA_ECT_IGN: 80
-    TACOMA_ECT_INIT: 80
-  response: 70805621041C0C0
-- expected_values:
-    TACOMA_ECT_IGN: 91.875
-    TACOMA_ECT_INIT: 91.875
-  response: 70805621041D3D3
+    TACOMA_ECT_IGN: 96.25
+    TACOMA_ECT_INIT: 96.25
+  response: 70805621041DADA

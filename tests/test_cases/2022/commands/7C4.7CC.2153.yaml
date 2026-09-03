@@ -4,5 +4,5 @@ test_cases:
     TACOMA_REGULATOR_P: 0.51418
   response: 7CC03615342
 - expected_values:
-    TACOMA_REGULATOR_P: 1.55859
-  response: 7CC03615389
+    TACOMA_REGULATOR_P: 1.80866
+  response: 7CC0361539A

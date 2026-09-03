@@ -4,8 +4,8 @@ test_cases:
     TACOMA_CAT_T_12: 37.6
   response: 70805621F3E0308
 - expected_values:
-    TACOMA_CAT_T_12: 446.4
-  response: 70805621F3E1300
+    TACOMA_CAT_T_12: 190.4
+  response: 70805621F3E0900
 - expected_values:
     TACOMA_CAT_T_12: 523.1
   response: 70805621F3E15FF
