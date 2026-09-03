@@ -4,7 +4,7 @@ test_cases:
     TACOMA_MISFIRE_CNT: 0
   response: |-
     70810086210A5000000
-    7082100990000000000
+    70821008A0000000000
 - expected_values:
     TACOMA_MISFIRE_CNT: 0
   response: |-
