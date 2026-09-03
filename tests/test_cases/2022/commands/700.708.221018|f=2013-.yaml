@@ -4,11 +4,11 @@ test_cases:
     TACOMA_INJECTOR_PORT: 1.978
   response: 7080562101807BA
 - expected_values:
-    TACOMA_INJECTOR_PORT: 3.323
-  response: 708056210180CFB
-- expected_values:
     TACOMA_INJECTOR_PORT: 3.843
   response: 708056210180F03
+- expected_values:
+    TACOMA_INJECTOR_PORT: 6.143
+  response: 7080562101817FF
 - expected_values:
     TACOMA_INJECTOR_PORT: 11.289
   response: 708056210182C19
