@@ -4,5 +4,5 @@ test_cases:
     TACOMA_AAT_7C4: 18.7
   response: 7CC03612278
 - expected_values:
-    TACOMA_AAT_7C4: 39
-  response: 7CC036122B2
+    TACOMA_AAT_7C4: 47.75
+  response: 7CC036122CB
