@@ -1,8 +1,8 @@
 command_id: 700.708.221089|f=2013-
 test_cases:
 - expected_values:
-    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 55.80965
-  response: 7080562108923BA
+    TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 55.04079
+  response: 70805621089233C
 - expected_values:
     TACOMA_EXHAUST_VVT_HOLD_LEARN_B1: 56.21849
   response: 7080562108923FD

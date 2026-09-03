@@ -4,5 +4,5 @@ test_cases:
     TACOMA_AMBIENT_T: 12
   response: 70804621F4634
 - expected_values:
-    TACOMA_AMBIENT_T: 49
-  response: 70804621F4659
+    TACOMA_AMBIENT_T: 60
+  response: 70804621F4664
