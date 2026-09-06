@@ -11,7 +11,7 @@ test_cases:
 - expected_values:
     TACOMA_GEAR_V2: 3
     TACOMA_TORQUE_CONVERTER_LOCKUP: 1
-  response: '7E8056185038018'
+  response: '7E8056185038010'
 - expected_values:
     TACOMA_GEAR_V2: 4
     TACOMA_TORQUE_CONVERTER_LOCKUP: 0
