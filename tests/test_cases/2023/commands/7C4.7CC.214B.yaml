@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TACOMA_EVAP_FIN_THERMISTOR: 13
   response: 7CC03614B7A
+- expected_values:
+    TACOMA_EVAP_FIN_THERMISTOR: 18.6
+  response: 7CC03614B8A

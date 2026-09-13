@@ -1,6 +1,9 @@
 command_id: 700.708.22106A|f=2013-
 test_cases:
 - expected_values:
+    TACOMA_FUEL_PUMP_DUTY_RATIO: 212.92683
+  response: 7080562106A0DA4
+- expected_values:
     TACOMA_FUEL_PUMP_DUTY_RATIO: 236.34146
   response: 7080562106A0F24
 - expected_values:
