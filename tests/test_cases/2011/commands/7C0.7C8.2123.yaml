@@ -1,6 +1,9 @@
 command_id: 7C0.7C8.2123
 test_cases:
 - expected_values:
+    TACOMA_ECT_7C0: 71.5
+  response: 7C80361238F
+- expected_values:
     TACOMA_ECT_7C0: 86.5
   response: 7C8036123AD
 - expected_values:
