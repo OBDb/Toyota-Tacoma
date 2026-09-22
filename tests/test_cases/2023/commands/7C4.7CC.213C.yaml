@@ -10,6 +10,9 @@ test_cases:
     TACOMA_BLOWER_MOTOR_SPEED_LEVEL: 2
   response: 7CC03613C02
 - expected_values:
+    TACOMA_BLOWER_MOTOR_SPEED_LEVEL: 3
+  response: 7CC03613C03
+- expected_values:
     TACOMA_BLOWER_MOTOR_SPEED_LEVEL: 7
   response: 7CC03613C07
 - expected_values:
