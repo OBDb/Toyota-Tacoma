@@ -252,7 +252,7 @@
     {"id": "TACOMA_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
     {"id": "TACOMA_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2015], "from": 2024 },
   "signals": [
     {"id": "TACOMA_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
     {"id": "TACOMA_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
@@ -286,7 +286,7 @@
     {"id": "TACOMA_BA_CTRL",           "path": "ECU",   "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "TACOMA_PBA_CTRL",          "path": "ECU",   "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2012, 2013, 2014, 2015], "from": 2024 },
   "signals": [
     {"id": "TACOMA_ZERO_POINT_OF_YAW_RATE", "path": "Orientation", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Zero point of yaw rate"}
   ]},
