@@ -229,7 +229,7 @@
     {"id": "TACOMA_STOP_LIGHT_SW",    "path": "Lights",  "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "TACOMA_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2024 },
   "signals": [
     {"id": "TACOMA_VEHICLE_SPEED_7B0", "path": "Movement", "fmt": { "len": 8, "max": 326.4, "mul": 326.4, "div": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7B0", "suggestedMetric": "speed"}
   ]},
@@ -319,7 +319,7 @@
   "signals": [
     {"id": "TACOMA_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2015], "from": 2024 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2015], "from": 2024 },
   "signals": [
     {"id": "TACOMA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Speed", "suggestedMetric": "speed"}
   ]},
@@ -389,7 +389,7 @@
   "signals": [
     {"id": "TACOMA_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2009, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2009, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "TACOMA_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "TACOMA_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
