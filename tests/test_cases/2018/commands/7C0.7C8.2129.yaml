@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
-    TACOMA_FUEL_INPUT: 86
-  response: 7C803612956
+    TACOMA_FUEL_INPUT: 73
+  response: 7C803612949
 - expected_values:
     TACOMA_FUEL_INPUT: 145
   response: 7C803612991
