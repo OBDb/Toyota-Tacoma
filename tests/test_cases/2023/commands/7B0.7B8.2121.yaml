@@ -4,5 +4,5 @@ test_cases:
     TACOMA_VEHICLE_SPEED_7B0: 0
   response: 7B803612100
 - expected_values:
-    TACOMA_VEHICLE_SPEED_7B0: 120.32
-  response: 7B80361215E
+    TACOMA_VEHICLE_SPEED_7B0: 138.24
+  response: 7B80361216C
