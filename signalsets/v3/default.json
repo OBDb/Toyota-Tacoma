@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "from": 2027 },
   "signals": [
     {"id": "TACOMA_12V_V", "path": "Battery", "fmt": { "len": 16, "max": 79, "mul": 12.207, "div": 10000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
