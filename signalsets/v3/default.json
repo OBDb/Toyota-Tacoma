@@ -1,5 +1,6 @@
 { "ecu": [
-    { "hdr": "7E0", "type": "engine" }
+    { "hdr": "750", "eax": "2A", "type": "tpms" },
+    { "hdr": "7E0",              "type": "engine" }
   ],
   "commands": [
 { "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "from": 2027 },
