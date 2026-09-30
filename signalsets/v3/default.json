@@ -1,6 +1,7 @@
 { "ecu": [
     { "hdr": "750", "eax": "2A", "type": "tpms" },
-    { "hdr": "7E0",              "type": "engine" }
+    { "hdr": "7E0",              "type": "engine" },
+    { "hdr": "7E1",              "type": "transmission" }
   ],
   "commands": [
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30,
