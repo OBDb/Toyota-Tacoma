@@ -1,0 +1,14 @@
+command_id: 700.708.2215F7
+test_cases:
+- expected_values:
+    TACOMA_BAT_CURRENT_700: -5.69167
+  response: 708056215F77A38
+- expected_values:
+    TACOMA_BAT_CURRENT_700: -0.03284
+  response: 708056215F78004
+- expected_values:
+    TACOMA_BAT_CURRENT_700: 10.61751
+  response: 708056215F78AED
+- expected_values:
+    TACOMA_BAT_CURRENT_700: 19.1477
+  response: 708056215F793AA

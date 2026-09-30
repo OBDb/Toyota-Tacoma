@@ -1,0 +1,12 @@
+command_id: 700.708.2215F6
+test_cases:
+- expected_values:
+    TACOMA_INITIAL_ENG_BAT_V_LO: 8.9
+  response: |-
+    70810096215F6000059
+    7082100004400000000
+- expected_values:
+    TACOMA_INITIAL_ENG_BAT_V_LO: 9.2
+  response: |-
+    70810096215F600005C
+    7082105CB5100000000
