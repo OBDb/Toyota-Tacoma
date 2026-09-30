@@ -746,7 +746,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2027 },
   "signals": [
-    {"id": "TACOMA_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+    {"id": "TACOMA_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2024 },
   "signals": [
