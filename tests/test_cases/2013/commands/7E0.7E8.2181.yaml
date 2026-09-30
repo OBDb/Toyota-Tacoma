@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2181
+test_cases:
+- expected_values:
+    TACOMA_SPD_NT: 300
+  response: '7E80461810600'
+- expected_values:
+    TACOMA_SPD_NT: 2200
+  response: 7E80461812C72
