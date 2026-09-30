@@ -1,0 +1,17 @@
+command_id: 7B3.7BB.221004
+test_cases:
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 0
+  response: 7BB06621004000006
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 1.5
+  response: 7BB06621004000100
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 1.5
+  response: 7BB0662100400010F
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 410
+  response: 7BB066210040FFC03
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 410
+  response: 7BB066210040FFF06

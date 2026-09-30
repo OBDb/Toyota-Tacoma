@@ -1,0 +1,32 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    TACOMA_ENG_ODO: 25075
+  response: 70807620103020061F3
+- expected_values:
+    TACOMA_ENG_ODO: 25076
+  response: 70807620103020061F4
+- expected_values:
+    TACOMA_ENG_ODO: 25077
+  response: 70807620103020061F5
+- expected_values:
+    TACOMA_ENG_ODO: 25078
+  response: 70807620103020061F6
+- expected_values:
+    TACOMA_ENG_ODO: 25079
+  response: 70807620103020061F7
+- expected_values:
+    TACOMA_ENG_ODO: 25080
+  response: 70807620103020061F8
+- expected_values:
+    TACOMA_ENG_ODO: 25082
+  response: 70807620103020061FA
+- expected_values:
+    TACOMA_ENG_ODO: 25083
+  response: 70807620103020061FB
+- expected_values:
+    TACOMA_ENG_ODO: 25084
+  response: 70807620103020061FC
+- expected_values:
+    TACOMA_ENG_ODO: 25085
+  response: 70807620103020061FD
