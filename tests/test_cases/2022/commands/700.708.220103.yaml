@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     TACOMA_ENG_ODO: 65154
   response: 708076201030200FE82
+- expected_values:
+    TACOMA_ENG_ODO: 65155
+  response: 708076201030200FE83
+- expected_values:
+    TACOMA_ENG_ODO: 65156
+  response: 708076201030200FE84
+- expected_values:
+    TACOMA_ENG_ODO: 65162
+  response: 708076201030200FE8A
+- expected_values:
+    TACOMA_ENG_ODO: 65163
+  response: 708076201030200FE8B
+- expected_values:
+    TACOMA_ENG_ODO: 65164
+  response: 708076201030200FE8C
