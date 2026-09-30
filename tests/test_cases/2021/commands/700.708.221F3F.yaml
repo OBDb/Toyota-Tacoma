@@ -1,26 +1,14 @@
 command_id: 700.708.221F3F
 test_cases:
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 422.96
-  response: 70805621F3F0A0C
+    TACOMA_CAT_T_BANK_2_SENS_2: 413.6
+  response: 70805621F3F09D8
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 528.44
-  response: 70805621F3F0C56
+    TACOMA_CAT_T_BANK_2_SENS_2: 420.44
+  response: 70805621F3F09FE
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 670.82
-  response: 70805621F3F0F6D
-- expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 696.56
-  response: 70805621F3F0FFC
-- expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 751.82
-  response: 70805621F3F112F
-- expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 815.72
-  response: 70805621F3F1292
-- expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 834.62
-  response: 70805621F3F12FB
+    TACOMA_CAT_T_BANK_2_SENS_2: 421.7
+  response: 70805621F3F0A05
 - expected_values:
     TACOMA_CAT_T_BANK_2_SENS_2: 857.3
   response: 70805621F3F1379

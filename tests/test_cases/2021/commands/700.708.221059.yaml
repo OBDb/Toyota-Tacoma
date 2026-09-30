@@ -9,6 +9,11 @@ test_cases:
     TACOMA_ACCEL_PEDAL: 8.45094
   response: |-
     708100A621059355D28
+    7082151059700000000
+- expected_values:
+    TACOMA_ACCEL_PEDAL: 8.45094
+  response: |-
+    708100A621059355D28
     708215105A300000000
 - expected_values:
     TACOMA_ACCEL_PEDAL: 16.90165
