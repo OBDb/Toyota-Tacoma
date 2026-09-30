@@ -1,0 +1,11 @@
+command_id: 701.709.22161A
+test_cases:
+- expected_values:
+    TACOMA_NT_SPD: 0
+  response: 7090562161A0000
+- expected_values:
+    TACOMA_NT_SPD: 1506
+  response: 7090562161A05E2
+- expected_values:
+    TACOMA_NT_SPD: 1808
+  response: 7090562161A0710

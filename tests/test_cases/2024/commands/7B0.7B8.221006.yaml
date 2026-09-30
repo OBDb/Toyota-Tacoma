@@ -1,0 +1,17 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 26
+  response: 7B8056210066A00
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 27
+  response: 7B8056210066B00
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 28
+  response: 7B8056210066C00
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 29
+  response: 7B8056210066D00
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 30
+  response: 7B8056210066E00
