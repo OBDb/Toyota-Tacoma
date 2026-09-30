@@ -1,0 +1,10 @@
+command_id: 750.222021|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    TACOMA_TID_1: FR
+    TACOMA_TID_2: RR
+    TACOMA_TID_3: FL
+    TACOMA_TID_4: RL
+  response: |-
+    7582A10086220210204
+    7582A21010300000000
