@@ -4,8 +4,8 @@ test_cases:
     TACOMA_NT_SPD: 0
   response: 7090562161A0000
 - expected_values:
-    TACOMA_NT_SPD: 1528
-  response: 7090562161A05F8
+    TACOMA_NT_SPD: 752
+  response: 7090562161A02F0
 - expected_values:
-    TACOMA_NT_SPD: 2267
-  response: 7090562161A08DB
+    TACOMA_NT_SPD: 1808
+  response: 7090562161A0710

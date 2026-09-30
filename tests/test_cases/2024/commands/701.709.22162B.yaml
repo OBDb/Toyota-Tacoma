@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TACOMA_ATF_THERMAL_DEGRAD_EST: 889
   response: 7090562162B0379
+- expected_values:
+    TACOMA_ATF_THERMAL_DEGRAD_EST: 1428
+  response: 7090562162B0594

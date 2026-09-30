@@ -1,0 +1,14 @@
+command_id: 700.708.2215EE
+test_cases:
+- expected_values:
+    TACOMA_V_BATSENS: 12.63171
+  response: 708056215EE286C
+- expected_values:
+    TACOMA_V_BATSENS: 14.09898
+  response: 708056215EE2D1E
+- expected_values:
+    TACOMA_V_BATSENS: 14.96812
+  response: 708056215EE2FE6
+- expected_values:
+    TACOMA_V_BATSENS: 15.06089
+  response: 708056215EE3032

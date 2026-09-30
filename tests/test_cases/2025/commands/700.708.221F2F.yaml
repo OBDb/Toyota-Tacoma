@@ -1,0 +1,8 @@
+command_id: 700.708.221F2F
+test_cases:
+- expected_values:
+    TACOMA_FLI: 16.47059
+  response: 70804621F2F2A
+- expected_values:
+    TACOMA_FLI: 71.76471
+  response: 70804621F2FB7

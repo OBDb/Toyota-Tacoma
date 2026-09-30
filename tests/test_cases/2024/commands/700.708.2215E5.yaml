@@ -1,0 +1,5 @@
+command_id: 700.708.2215E5
+test_cases:
+- expected_values:
+    TACOMA_BAT_STAT_FULL_CHG: 16065
+  response: 708046215E57E
