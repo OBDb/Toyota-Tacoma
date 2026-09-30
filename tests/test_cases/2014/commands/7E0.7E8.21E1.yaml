@@ -1,0 +1,27 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10001109B
+    7E82120000175000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10001109B
+    7E82120000280000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10001109B
+    7E8212000033F000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10001109B
+    7E82120000FA8000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10001109B
+    7E82120003066000000

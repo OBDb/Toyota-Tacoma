@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2181
+test_cases:
+- expected_values:
+    TACOMA_SPD_NT: 0
+  response: '7E80461810000'
+- expected_values:
+    TACOMA_SPD_NT: 750
+  response: 7E80461810F00
+- expected_values:
+    TACOMA_SPD_NT: 800
+  response: '7E80461811000'
+- expected_values:
+    TACOMA_SPD_NT: 850
+  response: '7E80461811100'
+- expected_values:
+    TACOMA_SPD_NT: 900
+  response: '7E80461811200'
+- expected_values:
+    TACOMA_SPD_NT: 950
+  response: '7E80461811300'
+- expected_values:
+    TACOMA_SPD_NT: 1000
+  response: '7E80461811400'
+- expected_values:
+    TACOMA_SPD_NT: 1050
+  response: '7E80461811500'
+- expected_values:
+    TACOMA_SPD_NT: 1100
+  response: '7E80461811600'
+- expected_values:
+    TACOMA_SPD_NT: 1150
+  response: '7E80461811700'
