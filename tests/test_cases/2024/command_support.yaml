@@ -311,6 +311,7 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.014E
   "7E2":
   - 7E2.7EA.0104
+  - 7E2.7EA.010C
   - 7E2.7EA.010D
   - 7E2.7EA.0111
   - 7E2.7EA.0141
