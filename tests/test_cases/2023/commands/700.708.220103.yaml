@@ -1,0 +1,14 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    TACOMA_ENG_ODO: 63054
+  response: 708076201030100F64E
+- expected_values:
+    TACOMA_ENG_ODO: 63055
+  response: 708076201030100F64F
+- expected_values:
+    TACOMA_ENG_ODO: 63056
+  response: 708076201030100F650
+- expected_values:
+    TACOMA_ENG_ODO: 63057
+  response: 708076201030100F651
