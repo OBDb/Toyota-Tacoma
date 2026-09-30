@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2104|f=-2018
+command_id: 7E0.7E8.2104|f=2016-2018
 test_cases:
 - expected_values:
     TACOMA_AFS_CURRENT_B1S1: -0.08594

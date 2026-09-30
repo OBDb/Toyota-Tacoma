@@ -821,7 +821,7 @@
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018], "from": 2024 },
   "signals": [
-    {"id": "TACOMA_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
+    {"id": "TACOMA_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2009, 2015, 2016], "from": 2018 },
   "signals": [
@@ -851,7 +851,19 @@
     {"id": "TACOMA_IGN_ADVANCE",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255,                                                      "unit": "degrees" }, "name": "Ignition advance"},
     {"id": "TACOMA_EVAP_PURGE_DUTY", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                 "mul": 100, "div": 255,              "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2006, "years": [2009, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2015 }, "dbgfilter": { "to": 2006, "years": [2009] },
+  "signals": [
+    {"id": "TACOMA_TARGET_AIR_FUEL_RATIO_V6", "path": "Engine", "fmt": {            "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel ratio"},
+    {"id": "TACOMA_AF_LAMBDA_B1S1_V6",        "path": "Engine", "fmt": {"bix": 16,  "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air-fuel ratio, bank 1 sensor 1"},
+    {"id": "TACOMA_AFS_VOLTAGE_B1S1_V6",      "path": "Engine", "fmt": {"bix": 32,  "len": 16, "max": 7.99,                "mul": 7.99, "div": 65535,              "unit": "volts"     }, "name": "Air-fuel sensor voltage, bank 1 sensor 1"},
+    {"id": "TACOMA_AF_LAMBDA_B2S1_V6",        "path": "Engine", "fmt": {"bix": 48,  "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air-fuel ratio, bank 2 sensor 1"},
+    {"id": "TACOMA_AFS_VOLTAGE_B2S1_V6",      "path": "Engine", "fmt": {"bix": 64,  "len": 16, "max": 7.99,                "mul": 7.99, "div": 65535,              "unit": "volts"     }, "name": "Air-fuel sensor voltage, bank 2 sensor 1"},
+    {"id": "TACOMA_AFS_CURRENT_B1S1_V6",      "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 127.99, "min": -128,              "div": 256,   "add": -128, "unit": "milliamps" }, "name": "Air-fuel sensor current, bank 1 sensor 1"},
+    {"id": "TACOMA_AFS_CURRENT_B2S1_V6",      "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 127.99, "min": -128,              "div": 256,   "add": -128, "unit": "milliamps" }, "name": "Air-fuel sensor current, bank 2 sensor 1"},
+    {"id": "TACOMA_O2S_B1S2_V6",              "path": "Engine", "fmt": {"bix": 144, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "O2S, bank 1 sensor 2"},
+    {"id": "TACOMA_O2S_B2S2_V6",              "path": "Engine", "fmt": {"bix": 160, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "O2S, bank 2 sensor 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "from": 2016, "to": 2018 }, "dbgfilter": { "from": 2018 },
   "signals": [
     {"id": "TACOMA_TARGET_AIR_FUEL_RATIO", "path": "Fuel",    "fmt": {           "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel ratio"},
     {"id": "TACOMA_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "AF lambda, bank 1 sensor 1"},
@@ -1116,11 +1128,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "54"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2015 },
   "signals": [
-    {"id": "TACOMA_RPM_CYL_1",      "path": "Movement", "fmt": {           "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 1"},
-    {"id": "TACOMA_RPM_CYL_2",      "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 2"},
-    {"id": "TACOMA_RPM_CYL_3",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 3"},
-    {"id": "TACOMA_RPM_CYL_4",      "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 4"},
-    {"id": "TACOMA_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Average engine speed of all cylinders", "suggestedMetric": "engineSpeed"}
+    {"id": "TACOMA_RPM_CYL_1",      "path": "Movement", "fmt": {           "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 1"},
+    {"id": "TACOMA_RPM_CYL_2",      "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 2"},
+    {"id": "TACOMA_RPM_CYL_3",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 3"},
+    {"id": "TACOMA_RPM_CYL_4",      "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 4"},
+    {"id": "TACOMA_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Average engine speed of all cylinders", "suggestedMetric": "engineSpeed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "81"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2015 },
   "signals": [
