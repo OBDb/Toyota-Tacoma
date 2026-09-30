@@ -1,0 +1,14 @@
+command_id: 701.709.220103
+test_cases:
+- expected_values:
+    TACOMA_ODO_701: 54151
+  response: 709076201030200D387
+- expected_values:
+    TACOMA_ODO_701: 54152
+  response: 709076201030200D388
+- expected_values:
+    TACOMA_ODO_701: 54153
+  response: 709076201030200D389
+- expected_values:
+    TACOMA_ODO_701: 54154
+  response: 709076201030200D38A
