@@ -1,11 +1,11 @@
 command_id: 700.708.221F3F
 test_cases:
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 616.28
-  response: 70805621F3F0E3E
+    TACOMA_CAT_T_BANK_2_SENS_2: 201.38
+  response: 70805621F3F053D
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 649.04
-  response: 70805621F3F0EF4
+    TACOMA_CAT_T_BANK_2_SENS_2: 373.1
+  response: 70805621F3F08F7
 - expected_values:
     TACOMA_CAT_T_BANK_2_SENS_2: 744.26
   response: 70805621F3F1105
