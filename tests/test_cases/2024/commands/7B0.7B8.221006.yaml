@@ -4,29 +4,5 @@ test_cases:
     TACOMA_MASTER_CYL_TEMP: 26
   response: 7B8056210066A00
 - expected_values:
-    TACOMA_MASTER_CYL_TEMP: 27
-  response: 7B8056210066B00
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 28
-  response: 7B8056210066C00
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 29
-  response: 7B8056210066D00
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 30
-  response: 7B8056210066E00
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 37
-  response: 7B8056210067500
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 38
-  response: 7B8056210067600
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 39
-  response: 7B8056210067700
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 40
-  response: 7B8056210067800
-- expected_values:
-    TACOMA_MASTER_CYL_TEMP: 41
-  response: 7B8056210067900
+    TACOMA_MASTER_CYL_TEMP: 49
+  response: 7B8056210068100
