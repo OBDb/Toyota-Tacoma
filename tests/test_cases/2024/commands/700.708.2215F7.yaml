@@ -7,8 +7,8 @@ test_cases:
     TACOMA_BAT_CURRENT_700: -0.03284
   response: 708056215F78004
 - expected_values:
-    TACOMA_BAT_CURRENT_700: 10.61751
-  response: 708056215F78AED
+    TACOMA_BAT_CURRENT_700: 3.8414
+  response: 708056215F783FC
 - expected_values:
     TACOMA_BAT_CURRENT_700: 19.1477
   response: 708056215F793AA
