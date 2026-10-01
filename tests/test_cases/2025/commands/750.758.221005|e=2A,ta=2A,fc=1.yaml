@@ -1,6 +1,16 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    TACOMA_TP_1: null
+    TACOMA_TP_2: null
+    TACOMA_TP_3: null
+    TACOMA_TP_4: null
+    TACOMA_TP_5: null
+  response: |-
+    7582A100D6210050000
+    7582A21000000000000
+    7582A22000000000000
+- expected_values:
     TACOMA_TP_1: 37.21212
     TACOMA_TP_2: 36.48485
     TACOMA_TP_3: 37.21212
@@ -26,15 +36,6 @@ test_cases:
   response: |-
     7582A100D62100500B1
     7582A2100B000AF00AE
-    7582A22000000000000
-- expected_values:
-    TACOMA_TP_1: 37.21212
-    TACOMA_TP_2: 36.9697
-    TACOMA_TP_3: 36.9697
-    TACOMA_TP_4: 36.24242
-  response: |-
-    7582A100D62100500B1
-    7582A2100B000B000AD
     7582A22000000000000
 - expected_values:
     TACOMA_TP_1: 37.45455
