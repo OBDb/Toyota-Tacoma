@@ -9,4 +9,9 @@ test_cases:
     TACOMA_INITIAL_ENG_BAT_V_LO: 9.2
   response: |-
     70810096215F600005C
+    7082100005200000000
+- expected_values:
+    TACOMA_INITIAL_ENG_BAT_V_LO: 9.2
+  response: |-
+    70810096215F600005C
     7082105CB5100000000
