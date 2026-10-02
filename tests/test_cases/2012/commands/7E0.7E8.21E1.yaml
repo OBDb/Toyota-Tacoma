@@ -1,0 +1,52 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000A1B000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000B1C000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000C25000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000D31000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000E3A000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120000F46000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120001051000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120001159000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E8212000125E000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000020B7
+    7E82120001368000000
