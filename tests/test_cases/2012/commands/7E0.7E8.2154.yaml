@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.2154
+test_cases:
+- expected_values:
+    TACOMA_AV_RPM_ALL_CYL: null
+    TACOMA_RPM_CYL_1: null
+    TACOMA_RPM_CYL_2: null
+    TACOMA_RPM_CYL_3: null
+    TACOMA_RPM_CYL_4: null
+  response: |-
+    7E810106154FFFFFFFF
+    7E821FFFFFFFFFFFFFF
+    7E822FFFFFF00000000
