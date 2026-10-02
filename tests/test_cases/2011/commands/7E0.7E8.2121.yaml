@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    TACOMA_CC_S: 98
+  response: |-
+    7E81008612115627FF8
+    7E821BC000000000000
+- expected_values:
+    TACOMA_CC_S: 98
+  response: |-
+    7E81008612128627FF8
+    7E821BC000000000000
+- expected_values:
+    TACOMA_CC_S: 98
+  response: |-
+    7E8100861212A627FF8
+    7E821BC000000000000
