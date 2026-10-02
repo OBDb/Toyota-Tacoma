@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     TACOMA_CC_S: 0
   response: 7E807612100000000E0
+- expected_values:
+    TACOMA_CC_S: 94
+  response: 7E8076121035E00BC00
+- expected_values:
+    TACOMA_CC_S: 48
+  response: 7E8076121303008FC00
+- expected_values:
+    TACOMA_CC_S: 94
+  response: 7E80761215E5E02FC00
+- expected_values:
+    TACOMA_CC_S: 94
+  response: 7E80761215E5E2FFC00
