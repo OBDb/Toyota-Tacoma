@@ -4,5 +4,5 @@ test_cases:
     TACOMA_ODO_701: 80545
   response: 7090762010302013AA1
 - expected_values:
-    TACOMA_ODO_701: 80563
-  response: 7090762010302013AB3
+    TACOMA_ODO_701: 80581
+  response: 7090762010302013AC5

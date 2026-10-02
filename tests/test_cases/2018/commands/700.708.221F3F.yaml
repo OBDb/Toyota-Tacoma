@@ -10,5 +10,5 @@ test_cases:
     TACOMA_CAT_T_BANK_2_SENS_2: 973.76
   response: 70805621F3F1600
 - expected_values:
-    TACOMA_CAT_T_BANK_2_SENS_2: 1162.22
-  response: 70805621F3F1A17
+    TACOMA_CAT_T_BANK_2_SENS_2: 1205.6
+  response: 70805621F3F1B08
