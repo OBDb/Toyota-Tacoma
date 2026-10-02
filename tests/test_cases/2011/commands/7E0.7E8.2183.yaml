@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2183
+test_cases:
+- expected_values:
+    TACOMA_G_SENS_CALIBRATION: 0
+    TACOMA_TRANS_OIL_PRESS: 0
+  response: '7E803618300'
