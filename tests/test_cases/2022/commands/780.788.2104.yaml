@@ -2,4 +2,7 @@ command_id: 780.788.2104
 test_cases:
 - expected_values:
     TACOMA_BUCKLE_RS: 1
+  response: '78806610402020101'
+- expected_values:
+    TACOMA_BUCKLE_RS: 1
   response: '78806610402020201'
