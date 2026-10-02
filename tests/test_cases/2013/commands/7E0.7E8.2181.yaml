@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_SPD_NT: 2200
   response: 7E80461812C72
+- expected_values:
+    TACOMA_SPD_NT: 2800
+  response: '7E80461813868'
