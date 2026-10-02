@@ -25,3 +25,8 @@ test_cases:
   response: |-
     7E8100A61E100000D79
     7E8212000302D000000
+- expected_values:
+    TACOMA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000D85
+    7E82120008302000000
