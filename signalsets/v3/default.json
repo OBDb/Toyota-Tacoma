@@ -633,7 +633,7 @@
   "signals": [
     {"id": "TACOMA_INSPECTION_MODE", "path": "ECU", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BC"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BC"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "TACOMA_HAZARD_SWITCH_HISTORY", "path": "Lights", "name": "Hazard switch history", "fmt": {"bix": 2, "len": 1, "map": {
           "0": { "description": "Incomplete", "value": "INCOMPLETE" },
