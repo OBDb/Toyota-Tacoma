@@ -4,5 +4,5 @@ test_cases:
     TACOMA_FLI: 6.66667
   response: 70804621F2F11
 - expected_values:
-    TACOMA_FLI: 38.43137
-  response: 70804621F2F62
+    TACOMA_FLI: 41.56863
+  response: 70804621F2F6A
