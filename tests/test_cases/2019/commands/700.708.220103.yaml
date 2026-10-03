@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TACOMA_ENG_ODO: 67005
   response: 70807620103020105BD
+- expected_values:
+    TACOMA_ENG_ODO: 67006
+  response: 70807620103020105BE
