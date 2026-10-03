@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TACOMA_DIST_SINCE_BAT_DISC: 64940
   response: 7080562106CFDAC
+- expected_values:
+    TACOMA_DIST_SINCE_BAT_DISC: 65535
+  response: 7080562106CFFFF
