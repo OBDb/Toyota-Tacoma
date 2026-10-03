@@ -1,0 +1,22 @@
+command_id: 700.708.221059
+test_cases:
+- expected_values:
+    TACOMA_ACCEL_PEDAL: 0.00024
+  response: |-
+    708100A621059295229
+    7082152000000000000
+- expected_values:
+    TACOMA_ACCEL_PEDAL: 6.33827
+  response: |-
+    708100A621059325A29
+    7082152039900000000
+- expected_values:
+    TACOMA_ACCEL_PEDAL: 9.15517
+  response: |-
+    708100A621059365F29
+    7082152064F00000000
+- expected_values:
+    TACOMA_ACCEL_PEDAL: 14.78897
+  response: |-
+    708100A6210593E6729
+    70821520AC500000000
