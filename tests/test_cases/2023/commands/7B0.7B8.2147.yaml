@@ -20,10 +20,10 @@ test_cases:
   response: 7B80761470000807FFF
 - expected_values:
     TACOMA_LAT_G: 0
-    TACOMA_LNG_G: -0.12
+    TACOMA_LNG_G: 0
     TACOMA_STEERING_ANGLE: 0
     TACOMA_YAW: 0
-  response: 7B807614700FA808000
+  response: 7B80761470000808000
 - expected_values:
     TACOMA_LAT_G: 0
     TACOMA_LNG_G: -0.02
