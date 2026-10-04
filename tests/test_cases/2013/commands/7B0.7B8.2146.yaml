@@ -14,3 +14,10 @@ test_cases:
   response: |-
     7B81009614600008080
     7B82100FF1C00000000
+- expected_values:
+    TACOMA_ZP_DEC: 0
+    TACOMA_ZP_DEC2: 0
+    TACOMA_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82100FF1F00000000
