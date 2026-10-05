@@ -1,0 +1,38 @@
+command_id: 700.708.221F77
+test_cases:
+- expected_values:
+    TACOMA_IAT_B1S1: 21
+    TACOMA_IAT_B1S2: 20
+  response: |-
+    7081008621F77033D3C
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 21
+    TACOMA_IAT_B1S2: 21
+  response: |-
+    7081008621F77033D3D
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 22
+    TACOMA_IAT_B1S2: 21
+  response: |-
+    7081008621F77033E3D
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 23
+    TACOMA_IAT_B1S2: 23
+  response: |-
+    7081008621F77033F3F
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 23
+    TACOMA_IAT_B1S2: 24
+  response: |-
+    7081008621F77033F40
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 23
+    TACOMA_IAT_B1S2: 25
+  response: |-
+    7081008621F77033F41
+    7082100000000000000
