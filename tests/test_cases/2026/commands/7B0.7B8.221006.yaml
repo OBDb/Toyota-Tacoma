@@ -1,0 +1,5 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 21
+  response: 7B8056210066500
