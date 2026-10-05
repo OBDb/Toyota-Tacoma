@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TACOMA_MASTER_CYL_TEMP: 21
   response: 7B8056210066500
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 38
+  response: 7B8056210067600
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 39
+  response: 7B8056210067700
+- expected_values:
+    TACOMA_MASTER_CYL_TEMP: 40
+  response: 7B8056210067800
