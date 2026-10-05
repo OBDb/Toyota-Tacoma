@@ -1,20 +1,14 @@
 command_id: 701.709.22161A
 test_cases:
 - expected_values:
-    TACOMA_NT_SPD: 979
-  response: 7090562161A03D3
+    TACOMA_NT_SPD: 302
+  response: 7090562161A012E
 - expected_values:
-    TACOMA_NT_SPD: 1562
-  response: 7090562161A061A
+    TACOMA_NT_SPD: 1779
+  response: 7090562161A06F3
 - expected_values:
-    TACOMA_NT_SPD: 1729
-  response: 7090562161A06C1
+    TACOMA_NT_SPD: 1807
+  response: 7090562161A070F
 - expected_values:
-    TACOMA_NT_SPD: 1893
-  response: 7090562161A0765
-- expected_values:
-    TACOMA_NT_SPD: 1899
-  response: 7090562161A076B
-- expected_values:
-    TACOMA_NT_SPD: 1903
-  response: 7090562161A076F
+    TACOMA_NT_SPD: 2083
+  response: 7090562161A0823
