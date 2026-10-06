@@ -10,8 +10,8 @@ test_cases:
     TACOMA_CC_S: 94
   response: 7E8076121035E00BC00
 - expected_values:
-    TACOMA_CC_S: 41
-  response: 7E8076121292902FC00
+    TACOMA_CC_S: 40
+  response: 7E8076121282802FC00
 - expected_values:
     TACOMA_CC_S: 94
   response: 7E80761215E5E2FFC00
