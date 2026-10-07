@@ -51,6 +51,6 @@ test_cases:
 - expected_values:
     TACOMA_LAT_G: -0.02
     TACOMA_LNG_G: 0
-    TACOMA_STEERING_ANGLE: -6
-    TACOMA_YAW: -1
-  response: 7B8076147FF007F7FC4
+    TACOMA_STEERING_ANGLE: -130.5
+    TACOMA_YAW: -3
+  response: 7B8076147FF007D7AE7
