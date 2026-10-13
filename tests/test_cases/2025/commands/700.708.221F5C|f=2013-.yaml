@@ -7,8 +7,8 @@ test_cases:
     TACOMA_EOT_V2: 88
   response: '708 04 62 1F 5C 80 '
 - expected_values:
-    TACOMA_EOT_V2: 18
-  response: 70804621F5C3A
+    TACOMA_EOT_V2: 16
+  response: 70804621F5C38
 - expected_values:
     TACOMA_EOT_V2: 103
   response: 70804621F5C8F
