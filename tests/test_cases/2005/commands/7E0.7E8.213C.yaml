@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    TACOMA_INJ_VOL_CYL_1: 0.00022
+  response: 7E804613C1B6B
+- expected_values:
+    TACOMA_INJ_VOL_CYL_1: 0.00024
+  response: 7E804613C1DFF

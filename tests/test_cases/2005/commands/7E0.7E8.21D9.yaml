@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.21D9
+test_cases:
+- expected_values:
+    TACOMA_ATF_T_V_14: -15.82031
+    TACOMA_ATF_T_V_21: -34
+    TACOMA_ATF_T_V_5: 60.625
+    TACOMA_ATF_T_V_8: 67.5
+  response: |-
+    7E8100A61D9182E0006
+    7E82164A06B80000000
+- expected_values:
+    TACOMA_ATF_T_V_14: 2.30469
+    TACOMA_ATF_T_V_21: -34
+    TACOMA_ATF_T_V_5: 61.25
+    TACOMA_ATF_T_V_8: 61.875
+  response: |-
+    7E8100A61D92A4E0006
+    7E821654065E0000000

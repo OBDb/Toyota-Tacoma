@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2110
+test_cases:
+- expected_values:
+    TACOMA_MAF_21: 28.5
+  response: 7E80461100B22
+- expected_values:
+    TACOMA_MAF_21: 32.04
+  response: 7E80461100C84

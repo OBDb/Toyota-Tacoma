@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.213E
+test_cases:
+- expected_values:
+    TACOMA_CAT_T_B1S2: 626.3
+  response: 7E804613E1A07
+- expected_values:
+    TACOMA_CAT_T_B1S2: 644.1
+  response: 7E804613E1AB9
