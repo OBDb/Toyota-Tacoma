@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    TACOMA_CC_S: 29
+  response: 7E8046121001D

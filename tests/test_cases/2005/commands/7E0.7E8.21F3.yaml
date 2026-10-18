@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.21F3
+test_cases:
+- expected_values:
+    TACOMA_FUEL_INJ_TIM: 4.608
+    TACOMA_INJ_WIDTH: 5.632
+  response: 7E80761F324CB2C848E
+- expected_values:
+    TACOMA_FUEL_INJ_TIM: 5.248
+    TACOMA_INJ_WIDTH: 6.528
+  response: 7E80761F329F1338992

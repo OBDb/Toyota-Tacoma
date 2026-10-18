@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2147
+test_cases:
+- expected_values:
+    TACOMA_EGR_STEP_POSITION: 147
+  response: '7E803614793'
