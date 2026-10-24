@@ -981,7 +981,7 @@
     {"id": "TACOMA_KNOCK_CORRECT_LEARN",    "path": "Engine", "fmt": {"bix": 16,  "len": 16, "max": 1023,   "min": -1024,              "div": 32,    "add": -1024, "unit": "degrees"    }, "name": "Knock correct learn value"},
     {"id": "TACOMA_KNOCK_ADJUST_7E0",       "path": "Engine", "fmt": {"bix": 32,  "len": 16, "max": 1024,   "min": -1024, "mul": 2048, "div": 65535, "add": -1024, "unit": "degrees"    }, "name": "Knock adjust"},
     {"id": "TACOMA_KNOCK_FEEDBACK_7E0",     "path": "Engine", "fmt": {"bix": 48,  "len": 16, "max": 1024,   "min": -1024, "mul": 2048, "div": 65535, "add": -1024, "unit": "degrees"    }, "name": "Knock feedback"},
-    {"id": "TACOMA_EVAP_PURGE_FLOW",        "path": "Engine", "fmt": {"bix": 64,  "len": 16, "max": 399.99,               "mul": 25,   "div": 4096,                "unit": "percent"    }, "name": "Evaporative purge flow"},
+    {"id": "TACOMA_EVAP_PURGE_FLOW",        "path": "Engine", "fmt": {"bix": 64,  "len": 16, "max": 65535,                                                         "unit": "scalar"     }, "name": "Evaporative purge flow, raw count"},
     {"id": "TACOMA_IG_OFF_ELAPSED_TIME",    "path": "Engine", "fmt": {"bix": 80,  "len": 16, "max": 655350,               "mul": 10,                               "unit": "minutes"    }, "name": "IG OFF elapsed time"},
     {"id": "TACOMA_DIST_BATT_CABLE",        "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 65535,                                                         "unit": "kilometers" }, "name": "Dist battery cable disconnect"},
     {"id": "TACOMA_IMMOBILIZER_ON",         "path": "Engine", "fmt": {"bix": 120, "len": 1,  "max": 1,                                                             "unit": "scalar"     }, "name": "Immobilizer communication on"},
@@ -1052,9 +1052,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010], "from": 2015 },
   "signals": [
-    {"id": "TACOMA_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 399, "mul": 1333,         "div": 218450, "unit": "percent" }, "name": "Variable valve timing aim angle 1"},
-    {"id": "TACOMA_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
-    {"id": "TACOMA_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
+    {"id": "TACOMA_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535,                      "unit": "scalar"  }, "name": "Variable valve timing aim angle 1, raw count"},
+    {"id": "TACOMA_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399,   "mul": 0.0061020829, "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
+    {"id": "TACOMA_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639,   "mul": 0.0097642481, "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2004, "years": [2006, 2009, 2015, 2016], "from": 2018 },
   "signals": [
