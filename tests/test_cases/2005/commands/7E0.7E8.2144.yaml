@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.2144
 test_cases:
 - expected_values:
-    TACOMA_VARIABLE_VLV_TIM_AIM_1: 200.89887
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 32923
   response: 7E8046144809B
