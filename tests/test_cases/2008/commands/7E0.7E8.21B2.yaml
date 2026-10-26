@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.21B2
+test_cases:
+- expected_values:
+    TACOMA_KNOCK_ADJUST: 22.28257
+    TACOMA_KNOCK_FEEDBACK: -2.99907
+  response: 7E80661B20AC907A0

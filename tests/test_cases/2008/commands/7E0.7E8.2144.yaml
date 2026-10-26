@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2144
+test_cases:
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 31308
+  response: 7E80461447A4C
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 31696
+  response: 7E80461447BD0
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 31731
+  response: 7E80461447BF3
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 31775
+  response: 7E80461447C1F
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 32211
+  response: 7E80461447DD3
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 32222
+  response: 7E80461447DDE
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 33769
+  response: 7E804614483E9
+- expected_values:
+    TACOMA_VARIABLE_VLV_TIM_AIM_1: 33912
+  response: '7E80461448478'

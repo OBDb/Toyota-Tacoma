@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.210E
+test_cases:
+- expected_values:
+    TACOMA_SPARKADV_21: 10.5
+  response: 7E803610E95
+- expected_values:
+    TACOMA_SPARKADV_21: 14.5
+  response: 7E803610E9D
+- expected_values:
+    TACOMA_SPARKADV_21: 15
+  response: 7E803610E9E
+- expected_values:
+    TACOMA_SPARKADV_21: 17
+  response: 7E803610EA2

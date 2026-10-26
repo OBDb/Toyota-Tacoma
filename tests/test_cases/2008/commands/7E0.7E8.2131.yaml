@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    TACOMA_VALVEMATIC_CURRENT: 0
+  response: '7E80461310000'

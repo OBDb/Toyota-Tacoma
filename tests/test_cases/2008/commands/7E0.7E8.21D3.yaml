@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.21D3
+test_cases:
+- expected_values:
+    TACOMA_CRUISE_CTRL_ON: 0
+    TACOMA_CRUISE_CTRL_SPD: 0
+  response: 7E80761D30000000081
+- expected_values:
+    TACOMA_CRUISE_CTRL_ON: 0
+    TACOMA_CRUISE_CTRL_SPD: 0
+  response: 7E80761D30000000082

@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.212E
+test_cases:
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 20.78431
+  response: 7E803612E35
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 34.5098
+  response: 7E803612E58
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 35.29412
+  response: 7E803612E5A
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 36.86275
+  response: 7E803612E5E
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 38.03922
+  response: 7E803612E61
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 47.45098
+  response: 7E803612E79
+- expected_values:
+    TACOMA_EVAP_PURGE_DUTY_7E0: 47.84314
+  response: 7E803612E7A
