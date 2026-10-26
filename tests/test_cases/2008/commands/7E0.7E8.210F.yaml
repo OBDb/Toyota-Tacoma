@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.210F
+test_cases:
+- expected_values:
+    TACOMA_IAT_21: 21
+  response: 7E803610F3D
+- expected_values:
+    TACOMA_IAT_21: 22
+  response: 7E803610F3E

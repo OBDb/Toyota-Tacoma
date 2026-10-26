@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2111
+test_cases:
+- expected_values:
+    TACOMA_THROTTLE_21: 16.47059
+  response: 7E80361112A
+- expected_values:
+    TACOMA_THROTTLE_21: 17.2549
+  response: 7E80361112C

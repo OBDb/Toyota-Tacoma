@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2142
+test_cases:
+- expected_values:
+    TACOMA_BAT_CURRENT: -74.18746
+  response: '7E80461423408'
+- expected_values:
+    TACOMA_BAT_CURRENT: -74.11498
+  response: 7E8046142341B
+- expected_values:
+    TACOMA_BAT_CURRENT: -73.9662
+  response: '7E80461423442'
+- expected_values:
+    TACOMA_BAT_CURRENT: -73.88991
+  response: '7E80461423456'

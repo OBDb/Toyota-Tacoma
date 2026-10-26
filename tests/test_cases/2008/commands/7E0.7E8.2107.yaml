@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2107
+test_cases:
+- expected_values:
+    TACOMA_LTFT1_21: -7.06333
+  response: '7E803610777'
