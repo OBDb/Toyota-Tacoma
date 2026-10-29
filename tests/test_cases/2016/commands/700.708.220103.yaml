@@ -1,0 +1,5 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    TACOMA_ENG_ODO: 101540
+  response: 7080762010302018CA4

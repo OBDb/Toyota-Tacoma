@@ -24,3 +24,9 @@ test_cases:
   response: |-
     7B81009610581800323
     7B82100002100000000
+- expected_values:
+    TACOMA_DECEL: 0.49906
+    TACOMA_DECEL_2: 0.21388
+  response: |-
+    7B810096105838103EA
+    7B82100003C00000000
