@@ -323,7 +323,7 @@
   "signals": [
     {"id": "TACOMA_ATF_TEMP_700", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2027 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "TACOMA_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
