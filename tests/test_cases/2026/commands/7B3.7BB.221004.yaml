@@ -11,4 +11,7 @@ test_cases:
   response: 7BB0662100400040E
 - expected_values:
     TACOMA_STEERING_ANGLE_7B3: 410
+  response: 7BB066210040FF80D
+- expected_values:
+    TACOMA_STEERING_ANGLE_7B3: 410
   response: 7BB066210040FFF05
