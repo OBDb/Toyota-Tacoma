@@ -4,29 +4,8 @@ test_cases:
     TACOMA_ENG_ODO: 2693
   response: 7080762010302000A85
 - expected_values:
-    TACOMA_ENG_ODO: 2694
-  response: 7080762010302000A86
-- expected_values:
-    TACOMA_ENG_ODO: 2695
-  response: 7080762010302000A87
-- expected_values:
-    TACOMA_ENG_ODO: 2696
-  response: 7080762010302000A88
-- expected_values:
-    TACOMA_ENG_ODO: 2711
-  response: 7080762010302000A97
-- expected_values:
-    TACOMA_ENG_ODO: 2712
-  response: 7080762010302000A98
-- expected_values:
-    TACOMA_ENG_ODO: 2713
-  response: 7080762010302000A99
-- expected_values:
-    TACOMA_ENG_ODO: 2722
-  response: 7080762010302000AA2
-- expected_values:
-    TACOMA_ENG_ODO: 2723
-  response: 7080762010302000AA3
-- expected_values:
     TACOMA_ENG_ODO: 2724
   response: 7080762010302000AA4
+- expected_values:
+    TACOMA_ENG_ODO: 19825
+  response: 7080762010302004D71

@@ -16,3 +16,11 @@ test_cases:
   response: |-
     7582A10086220210204
     7582A21010300000000
+- expected_values:
+    TACOMA_TID_1: RR
+    TACOMA_TID_2: FR
+    TACOMA_TID_3: RL
+    TACOMA_TID_4: FL
+  response: |-
+    7582A10086220210402
+    7582A21030100000000
