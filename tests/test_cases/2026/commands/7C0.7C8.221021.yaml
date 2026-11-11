@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    TACOMA_BATTERY_VOLTAGE_7C0: 12.5
-  response: 7C8046210217D
+    TACOMA_BATTERY_VOLTAGE_7C0: 0
+  response: 7C80462102100
 - expected_values:
     TACOMA_BATTERY_VOLTAGE_7C0: 14.2
   response: 7C8046210218E
