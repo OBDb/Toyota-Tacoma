@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    TACOMA_ODO: 46814
+  response: 7E805612800B6DE
+- expected_values:
+    TACOMA_ODO: 46815
+  response: 7E805612800B6DF
+- expected_values:
+    TACOMA_ODO: 46817
+  response: 7E805612800B6E1
+- expected_values:
+    TACOMA_ODO: 46830
+  response: 7E805612800B6EE
+- expected_values:
+    TACOMA_ODO: 46831
+  response: 7E805612800B6EF
+- expected_values:
+    TACOMA_ODO: 46833
+  response: 7E805612800B6F1
+- expected_values:
+    TACOMA_ODO: 46835
+  response: 7E805612800B6F3
