@@ -7,5 +7,5 @@ test_cases:
     TACOMA_ENG_ODO: 19825
   response: 7080762010302004D71
 - expected_values:
-    TACOMA_ENG_ODO: 19910
-  response: 7080762010302004DC6
+    TACOMA_ENG_ODO: 19912
+  response: 7080762010302004DC8
