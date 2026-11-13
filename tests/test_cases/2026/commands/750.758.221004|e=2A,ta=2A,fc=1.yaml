@@ -20,6 +20,12 @@ test_cases:
     7582A1008621004003E
     7582A21000000000000
 - expected_values:
+    TACOMA_TT_2: 22
+    TACOMA_TT_4: 23
+  response: |-
+    7582A1008621004003E
+    7582A21003F00000000
+- expected_values:
     TACOMA_TT_2: 31
     TACOMA_TT_3: 43
   response: |-
@@ -30,14 +36,6 @@ test_cases:
   response: |-
     7582A10086210040050
     7582A21000000000000
-- expected_values:
-    TACOMA_TT_1: 22
-    TACOMA_TT_2: 22
-    TACOMA_TT_3: 21
-    TACOMA_TT_4: 23
-  response: |-
-    7582A10086210043E3E
-    7582A213D3F00000000
 - expected_values:
     TACOMA_TT_1: 24
     TACOMA_TT_2: 26
