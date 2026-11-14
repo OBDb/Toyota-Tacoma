@@ -4,8 +4,8 @@ test_cases:
     TACOMA_ENG_ODO: 2693
   response: 7080762010302000A85
 - expected_values:
-    TACOMA_ENG_ODO: 19825
-  response: 7080762010302004D71
-- expected_values:
     TACOMA_ENG_ODO: 19942
   response: 7080762010302004DE6
+- expected_values:
+    TACOMA_ENG_ODO: 20057
+  response: '7080762010302004E59'
