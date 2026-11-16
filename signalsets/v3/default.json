@@ -305,7 +305,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2015, "from": 2027 },
   "signals": [
-    {"id": "TACOMA_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+    {"id": "TACOMA_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1622"}, "freq": 1,
   "signals": [
@@ -579,9 +579,9 @@
     {"id": "TACOMA_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
     {"id": "TACOMA_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "scalar"  }, "name": "Zero point of yaw rate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2015], "from": 2024 },
   "signals": [
-    {"id": "TACOMA_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
+    {"id": "TACOMA_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g",              "suggestedMetric": "lateralAcceleration"},
     {"id": "TACOMA_LNG_G",          "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Forward and rearward g"},
     {"id": "TACOMA_YAW",            "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,               "add": -128,                  "unit": "scalar"  }, "name": "Yaw rate value"},
     {"id": "TACOMA_STEERING_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering angle value"}
@@ -828,7 +828,7 @@
     {"id": "TACOMA_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load"},
     {"id": "TACOMA_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                  "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
     {"id": "TACOMA_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                           "div": 100,               "unit": "gramsPerSecond"    }, "name": "Mass air flow",                     "suggestedMetric": "massAirFlow"},
-    {"id": "TACOMA_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
+    {"id": "TACOMA_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure",        "suggestedMetric": "absoluteBoostPressure"},
     {"id": "TACOMA_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "TACOMA_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Coolant temp"},
     {"id": "TACOMA_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 64,  "len": 16, "max": 16383.75,                         "div": 4,                 "unit": "rpm"               }, "name": "Engine speed"},
@@ -878,7 +878,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2004, "years": [2006, 2009, 2015, 2016], "from": 2018 },
   "signals": [
-    {"id": "TACOMA_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
+    {"id": "TACOMA_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL",                                 "suggestedMetric": "checkEngineLightOn"},
     {"id": "TACOMA_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
     {"id": "TACOMA_COMPLETE_PARTS_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 13, "len": 1,  "max": 1,     "unit": "noyes"      }, "name": "Complete parts monitor available?"},
     {"id": "TACOMA_FUEL_SYSTEM_MONITOR_AVAIL",      "path": "DTCs", "fmt": {"bix": 14, "len": 1,  "max": 1,     "unit": "noyes"      }, "name": "Fuel system monitor available?"},
@@ -916,7 +916,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0F"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007], "from": 2009 },
   "signals": [
-    {"id": "TACOMA_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
+    {"id": "TACOMA_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
@@ -1179,7 +1179,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D3"}, "freq": 0.25, "dbgfilter": { "to": 2004, "years": [2006, 2007], "from": 2009 },
   "signals": [
-    {"id": "TACOMA_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
+    {"id": "TACOMA_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed", "suggestedMetric": "cruiseSetSpeed"},
     {"id": "TACOMA_CRUISE_CTRL_ON",  "path": "Engine",   "fmt": {"bix": 25, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise control on"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D9"}, "freq": 5, "dbgfilter": { "to": 2004, "years": [2006, 2007], "from": 2009 },
