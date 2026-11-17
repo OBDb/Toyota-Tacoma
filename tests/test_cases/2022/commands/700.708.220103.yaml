@@ -9,6 +9,14 @@ test_cases:
     TACOMA_ENG_ODO_UNIT: MI
   response: '7080762010302008747'
 - expected_values:
+    TACOMA_ENG_ODO_RAW: 34633
+    TACOMA_ENG_ODO_UNIT: MI
+  response: '7080762010302008749'
+- expected_values:
+    TACOMA_ENG_ODO_RAW: 34635
+    TACOMA_ENG_ODO_UNIT: MI
+  response: 708076201030200874B
+- expected_values:
     TACOMA_ENG_ODO_RAW: 65154
     TACOMA_ENG_ODO_UNIT: MI
   response: 708076201030200FE82
