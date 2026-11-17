@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.2122|f=2028-;-2023
+test_cases:
+- expected_values:
+    TACOMA_AAT_7C4: 3.65
+  response: 7CC0361224D
+- expected_values:
+    TACOMA_AAT_7C4: 34.1
+  response: 7CC036122A4
