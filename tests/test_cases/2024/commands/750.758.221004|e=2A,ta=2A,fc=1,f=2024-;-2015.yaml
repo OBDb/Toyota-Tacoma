@@ -1,6 +1,15 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1,f=2024-;-2015
 test_cases:
 - expected_values:
+    TACOMA_TT_1: null
+    TACOMA_TT_2: null
+    TACOMA_TT_3: null
+    TACOMA_TT_4: null
+    TACOMA_TT_5: null
+  response: |-
+    7582A10086210040000
+    7582A21000000000000
+- expected_values:
     TACOMA_TT_1: 19
     TACOMA_TT_2: 18
     TACOMA_TT_3: 19
@@ -9,21 +18,29 @@ test_cases:
     7582A10086210043B3A
     7582A213B3B00000000
 - expected_values:
-    TACOMA_TT_1: 35
-    TACOMA_TT_2: 39
-    TACOMA_TT_3: 35
-    TACOMA_TT_4: 39
+    TACOMA_TT_1: 25
+    TACOMA_TT_2: 24
+    TACOMA_TT_3: 24
+    TACOMA_TT_4: 22
   response: |-
-    7582A10086210044B4F
-    7582A214B4F00000000
+    7582A10086210044140
+    7582A21403E00000000
 - expected_values:
-    TACOMA_TT_1: 38
-    TACOMA_TT_2: 41
-    TACOMA_TT_3: 37
-    TACOMA_TT_4: 40
+    TACOMA_TT_1: 26
+    TACOMA_TT_2: 25
+    TACOMA_TT_3: 25
+    TACOMA_TT_4: 23
   response: |-
-    7582A10086210044E51
-    7582A214D5000000000
+    7582A10086210044241
+    7582A21413F00000000
+- expected_values:
+    TACOMA_TT_1: 28
+    TACOMA_TT_2: 27
+    TACOMA_TT_3: 26
+    TACOMA_TT_4: 24
+  response: |-
+    7582A10086210044443
+    7582A21424000000000
 - expected_values:
     TACOMA_TT_1: 39
     TACOMA_TT_2: 39
