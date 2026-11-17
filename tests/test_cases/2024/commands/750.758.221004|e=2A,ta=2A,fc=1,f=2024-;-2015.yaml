@@ -1,13 +1,13 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1,f=2024-;-2015
 test_cases:
 - expected_values:
-    TACOMA_TT_1: 30
-    TACOMA_TT_2: 29
-    TACOMA_TT_3: 30
-    TACOMA_TT_4: 29
+    TACOMA_TT_1: 19
+    TACOMA_TT_2: 18
+    TACOMA_TT_3: 19
+    TACOMA_TT_4: 19
   response: |-
-    7582A10086210044645
-    7582A21464500000000
+    7582A10086210043B3A
+    7582A213B3B00000000
 - expected_values:
     TACOMA_TT_1: 35
     TACOMA_TT_2: 39
