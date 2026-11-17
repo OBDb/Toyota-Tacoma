@@ -1,11 +1,14 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
-    TACOMA_ODO_701: 2693
+    TACOMA_ODO_701_RAW: 2693
+    TACOMA_ODO_701_UNIT: MI
   response: 7090762010302000A85
 - expected_values:
-    TACOMA_ODO_701: 2724
+    TACOMA_ODO_701_RAW: 2724
+    TACOMA_ODO_701_UNIT: MI
   response: 7090762010302000AA4
 - expected_values:
-    TACOMA_ODO_701: 19825
+    TACOMA_ODO_701_RAW: 19825
+    TACOMA_ODO_701_UNIT: MI
   response: 7090762010302004D71
