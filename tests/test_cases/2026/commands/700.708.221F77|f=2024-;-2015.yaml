@@ -1,0 +1,20 @@
+command_id: 700.708.221F77|f=2024-;-2015
+test_cases:
+- expected_values:
+    TACOMA_IAT_B1S1: 21
+    TACOMA_IAT_B1S2: 20
+  response: |-
+    7081008621F77033D3C
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 44
+    TACOMA_IAT_B1S2: 50
+  response: |-
+    7081008621F7703545A
+    7082100000000000000
+- expected_values:
+    TACOMA_IAT_B1S1: 45
+    TACOMA_IAT_B1S2: 49
+  response: |-
+    7081008621F77035559
+    7082100000000000000

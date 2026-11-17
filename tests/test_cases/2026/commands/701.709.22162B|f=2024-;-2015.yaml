@@ -1,0 +1,8 @@
+command_id: 701.709.22162B|f=2024-;-2015
+test_cases:
+- expected_values:
+    TACOMA_ATF_THERMAL_DEGRAD_EST: 115
+  response: 7090562162B0073
+- expected_values:
+    TACOMA_ATF_THERMAL_DEGRAD_EST: 1273
+  response: 7090562162B04F9
