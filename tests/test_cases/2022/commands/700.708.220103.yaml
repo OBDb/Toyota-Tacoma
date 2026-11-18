@@ -9,33 +9,9 @@ test_cases:
     TACOMA_ENG_ODO_UNIT: MI
   response: '7080762010302008747'
 - expected_values:
-    TACOMA_ENG_ODO_RAW: 34633
-    TACOMA_ENG_ODO_UNIT: MI
-  response: '7080762010302008749'
-- expected_values:
-    TACOMA_ENG_ODO_RAW: 34635
-    TACOMA_ENG_ODO_UNIT: MI
-  response: 708076201030200874B
-- expected_values:
     TACOMA_ENG_ODO_RAW: 65154
     TACOMA_ENG_ODO_UNIT: MI
   response: 708076201030200FE82
-- expected_values:
-    TACOMA_ENG_ODO_RAW: 65155
-    TACOMA_ENG_ODO_UNIT: MI
-  response: 708076201030200FE83
-- expected_values:
-    TACOMA_ENG_ODO_RAW: 65156
-    TACOMA_ENG_ODO_UNIT: MI
-  response: 708076201030200FE84
-- expected_values:
-    TACOMA_ENG_ODO_RAW: 65162
-    TACOMA_ENG_ODO_UNIT: MI
-  response: 708076201030200FE8A
-- expected_values:
-    TACOMA_ENG_ODO_RAW: 65163
-    TACOMA_ENG_ODO_UNIT: MI
-  response: 708076201030200FE8B
 - expected_values:
     TACOMA_ENG_ODO_RAW: 65164
     TACOMA_ENG_ODO_UNIT: MI
